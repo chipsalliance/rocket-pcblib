@@ -2701,7 +2701,7 @@
   (pad "K38" smd circle (at -22.224 5.715) (size 0.64 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c62f8585-9f63-40f4-8068-64740a05a522))
   (pad "K39" smd circle (at -23.494 5.715) (size 0.64 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 912d5d2c-db69-4d2b-88c3-fc84753f1107))
   (pad "K40" smd circle (at -24.764 5.715) (size 0.64 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp cedb5f2e-8127-4ec4-940f-327d952255b5))
-  (model "${KICAD6_3DMODEL_DIR}/Connector_Samtec.3dshapes/Samtec_FMC_ASP-134602-01_10x40_P1.27mm_Vertical.wrl"
+  (model "${KIPRJMOD}/library/Vowstar_Connector.3dshapes/Samtec_FMC_ASP-134602-01_10x40_P1.27mm.STEP"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))
