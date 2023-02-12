@@ -47,7 +47,7 @@
   (pad "A2" smd circle (at 0.2 -0.2) (size 0.25 0.25) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp fec724be-a1a5-4ddd-873b-d268df5b9152))
   (pad "B1" smd circle (at -0.2 0.2) (size 0.25 0.25) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp cd00b90b-c9b9-4b95-9e42-01f0a401ca45))
   (pad "B2" smd circle (at 0.2 0.2) (size 0.25 0.25) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 8de23470-6684-4799-b0eb-5611f7ddd347))
-  (model "${KIPRJMOD}/Vowstar_Sensor.3dshapes/WLP4_N40P2X2_80X80X52N.step"
+  (model "${KIPRJMOD}/library/Vowstar_Sensor.3dshapes/WLP4_N40P2X2_80X80X52N.step"
     (offset (xyz 0 0 0.305))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 180 0))
