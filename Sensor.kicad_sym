@@ -134,6 +134,96 @@
     (property "ki_fp_filters" "SOT?23*" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "DRV5053PAQDBZR_0_1"
+      (polyline
+        (pts
+          (xy 1.27 -8.255)
+          (xy 1.27 -6.223)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.032 -8.255)
+          (xy 2.032 -6.223)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 3.302 -7.62)
+          (xy 2.794 -7.112)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 3.302 -7.62)
+          (xy 3.302 -4.445)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 3.302 -7.62)
+          (xy 3.81 -7.112)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 3.302 -4.445)
+          (xy 2.794 -4.953)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 3.302 -4.445)
+          (xy 3.81 -4.953)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 4.572 -8.255)
+          (xy 4.572 -6.223)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 5.334 -8.255)
+          (xy 5.334 -6.223)
+        )
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (arc (start 1.27 -8.255) (mid 3.302 -10.2782) (end 5.334 -8.255)
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (rectangle (start 1.27 -6.223) (end 2.032 -7.874)
+        (stroke (width 0.254) (type default))
+        (fill (type outline))
+      )
+      (arc (start 2.032 -8.255) (mid 3.302 -9.5195) (end 4.572 -8.255)
+        (stroke (width 0.254) (type default))
+        (fill (type none))
+      )
+      (rectangle (start 4.572 -6.223) (end 5.334 -7.874)
+        (stroke (width 0.254) (type default))
+        (fill (type outline))
+      )
+    )
     (symbol "DRV5053PAQDBZR_1_1"
       (rectangle (start 0 0) (end 10.16 -15.24)
         (stroke (width 0.254) (type default))
