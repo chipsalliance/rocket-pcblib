@@ -2599,7 +2599,7 @@
     (solder_paste_margin 0.125) (tstamp acb657e2-27f8-4a80-be83-9f296a677421))
   (pad "H40" smd circle (at -24.765 3.175 180) (size 0.64 0.64) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_paste_margin 0.125) (tstamp 3ded1d23-d4d1-4b22-80f1-90b2a38234e1))
-  (model "${KIPRJMOD}/library/Connector.3dshapes/Samtec_FMC_ASP-134604-01_4x40_P1.27mm.step"
+  (model "${KIPRJMOD}/library/CHIPSAlliance_Connector.3dshapes/Samtec_FMC_ASP-134604-01_4x40_P1.27mm.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

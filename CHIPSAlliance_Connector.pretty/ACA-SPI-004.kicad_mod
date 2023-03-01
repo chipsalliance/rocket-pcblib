@@ -83,7 +83,7 @@
   (pad "6" smd roundrect (at -0.635 4 270) (size 1.5 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 7611710f-dee9-4000-8b9d-f42f46a0b873))
   (pad "7" smd roundrect (at 0.635 4 270) (size 1.5 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp a34ff781-f655-4d5e-8e09-0b0d896cdb87))
   (pad "8" smd roundrect (at 1.905 4 270) (size 1.5 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp dd6907d0-699a-4b29-8b47-00d90d6fdf03))
-  (model "${KIPRJMOD}/library/Connector.3dshapes/ACA-SPI-004-K01.step"
+  (model "${KIPRJMOD}/library/CHIPSAlliance_Connector.3dshapes/ACA-SPI-004-K01.step"
     (offset (xyz 4.5 -6.05 -3.1))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
