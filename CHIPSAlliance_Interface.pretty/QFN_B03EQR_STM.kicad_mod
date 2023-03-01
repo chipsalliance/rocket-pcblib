@@ -271,7 +271,7 @@
   (pad "15" smd rect (at -0.250063 -1.4478) (size 0.254 0.7112) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp b21c45dc-3f97-4d74-b02a-0774310f21bc))
   (pad "16" smd rect (at -0.750189 -1.4478) (size 0.254 0.7112) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 7c691b30-9eea-4bc1-b1e3-c4a9f7b1898c))
   (pad "17" smd rect (at 0 0) (size 1.8034 1.8034) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 9c823155-e62e-4107-9ca7-77b91320276e))
-  (model "${KIPRJMOD}/library/Interface.3dshapes/QFN_B03EQR_STM.step"
+  (model "${KIPRJMOD}/library/CHIPSAlliance_Interface.3dshapes/QFN_B03EQR_STM.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
