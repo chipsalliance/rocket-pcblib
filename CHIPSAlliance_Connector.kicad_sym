@@ -11756,7 +11756,7 @@
     (property "Value" "USB_C_Receptacle" (at 0 -64.77 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_USB:USB_C_Receptacle_Molex_105450-0101" (at 0 -67.31 0)
+    (property "Footprint" "CHIPSAlliance_Connector:USB_C_Receptacle_Molex_105450-0101" (at 0 -67.31 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20171014/C134092_15079756303111038366.pdf" (at 0 -69.85 0)
