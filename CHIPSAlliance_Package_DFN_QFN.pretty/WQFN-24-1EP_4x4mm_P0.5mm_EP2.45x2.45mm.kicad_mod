@@ -78,7 +78,7 @@
   (pad "23" smd roundrect (at -0.75 -1.9375) (size 0.3 0.875) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 0450d30a-bb56-4f47-a082-e1dc85c5b5fe))
   (pad "24" smd roundrect (at -1.25 -1.9375) (size 0.3 0.875) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 760ae9a7-1656-45c4-a33f-05dcb9cab9be))
   (pad "25" smd rect (at 0 0) (size 2.45 2.45) (layers "F.Cu" "F.Mask") (tstamp 7840ca32-566b-42ea-bc87-fa19fdd3c126))
-  (model "${KIPRJMOD}/library/CHIPSAlliance_Logic.3dshapes/WQFN-24-1EP_4x4mm_P0.5mm_EP2.45x2.45mm.step"
+  (model "${KIPRJMOD}/library/CHIPSAlliance_Package_DFN_QFN.3dshapes/WQFN-24-1EP_4x4mm_P0.5mm_EP2.45x2.45mm.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
