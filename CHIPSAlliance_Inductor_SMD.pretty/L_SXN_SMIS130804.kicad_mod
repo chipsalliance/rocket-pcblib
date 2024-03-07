@@ -1,0 +1,252 @@
+(footprint "L_SXN_SMIS130804"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Inductor, SXN, SMIS130804, 12.8x7.8x4.2mm, https://atta.szlcsc.com/upload/public/pdf/source/20210810/C89E6F775779B79874D7B6E709D70FFB.pdf")
+	(tags "Inductor sxn smis")
+	(property "Reference" "REF**"
+		(at 0 -4.9 0)
+		(layer "F.SilkS")
+		(uuid "0cef8134-c65f-4846-a998-8df81e1aa6fd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_SXN_SMIS130804"
+		(at 0 4.9 0)
+		(layer "F.Fab")
+		(uuid "b3e8bffe-840c-4d4f-a2d9-73aa1caeb94c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c3070bbd-571e-43c7-93ff-6e0f46e5b1a5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "045a1f4a-2611-4ed5-aeef-c41f1c480183")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0efcc2ca-27c4-4f0f-af45-2dbac504adcf")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -6.66 -4.16)
+		(end -6.66 -2.76)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "098bfb2e-7701-4bb7-8e5d-843119a042dc")
+	)
+	(fp_line
+		(start -6.66 -4.16)
+		(end 6.66 -4.16)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "032cd7bc-238a-406b-8fb5-2149e747131c")
+	)
+	(fp_line
+		(start -6.66 4.16)
+		(end -6.66 2.76)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "82526fc3-b443-44fc-bdbd-ce103ad1ff1d")
+	)
+	(fp_line
+		(start -6.66 4.16)
+		(end 6.66 4.16)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e01412a9-ae17-4627-83fa-6c1449b21ffe")
+	)
+	(fp_line
+		(start 6.66 -4.16)
+		(end 6.66 -2.76)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "960d0f77-d617-4764-a594-4f3ad51da959")
+	)
+	(fp_line
+		(start 6.66 4.16)
+		(end 6.66 2.76)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "476cdc2d-1f78-4b54-a245-cfe6f8a8373f")
+	)
+	(fp_line
+		(start -7.5 -4.15)
+		(end -7.5 4.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "97195a49-9e55-4d19-8215-85fdca8aacd3")
+	)
+	(fp_line
+		(start -7.5 4.15)
+		(end 7.5 4.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9e688ff6-ed7e-4ca0-b32a-15c91475b2f2")
+	)
+	(fp_line
+		(start 7.5 -4.15)
+		(end -7.5 -4.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8c8dec8f-bb76-4c40-ad7f-6ecbe4f3c7e9")
+	)
+	(fp_line
+		(start 7.5 4.15)
+		(end 7.5 -4.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1f648f71-d6af-49da-8bb9-7995165ea131")
+	)
+	(fp_line
+		(start -6.4 -3.9)
+		(end -6.4 3.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "72c80abe-8443-4715-a022-4adebb4e5ec7")
+	)
+	(fp_line
+		(start -6.4 3.9)
+		(end 6.4 3.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6a336cf9-6e22-4b7d-becc-1bfad98511a6")
+	)
+	(fp_line
+		(start 6.4 -3.9)
+		(end -6.4 -3.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a52c0092-b4ab-4527-8fe3-cbb56d30523e")
+	)
+	(fp_line
+		(start 6.4 3.9)
+		(end 6.4 -3.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9ffcd8e8-7020-455c-95ef-0396c64f8fbe")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "af46cf9c-d7e0-4b76-bedb-b951cc4f6cc1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -5.125 0)
+		(size 4.25 5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ace16861-cb3a-4798-911d-78b2ea683959")
+	)
+	(pad "2" smd rect
+		(at 5.125 0)
+		(size 4.25 5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a1c1ba98-4c63-445d-b03e-e8a68af61b90")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_SXN_SMIS130804.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KIPRJMOD}/library/CHIPSAlliance_Inductor_SMD.3dshapes/L_SXN_SMIS130804.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
