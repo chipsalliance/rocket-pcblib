@@ -1,0 +1,3 @@
+[submodule "PCIexpress-KiCad"]
+	path = PCIexpress-KiCad
+	url = https://github.com/lucanastasio/PCIexpress-KiCad
