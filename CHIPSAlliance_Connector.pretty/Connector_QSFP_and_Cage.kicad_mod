@@ -29,7 +29,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Connector_QSFP_and_Cage"
 		(at 14.3 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -808,6 +808,22 @@
 		(remove_unused_layers no)
 		(uuid "4fcb4336-9fb3-433b-a6d0-c4e7584b07a3")
 	)
+	(pad "CAGE" thru_hole rect
+		(at 12.79 -5)
+		(size 2 2)
+		(drill 1.05)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1854faed-1160-4c51-990b-7581019329ab")
+	)
+	(pad "CAGE" thru_hole rect
+		(at 12.79 2.2)
+		(size 2 2)
+		(drill 1.05)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "32781ce2-737e-458b-b0e2-d2c1367a4476")
+	)
 	(zone
 		(net 0)
 		(net_name "")
@@ -835,6 +851,28 @@
 				(xy 13.5 -9.5) (xy -2.075 -9.5) (xy -2.075 -7.5) (xy -3.075 -7.5) (xy -3.075 7.5) (xy -2.075 7.5)
 				(xy -2.075 9.5) (xy 12.5 9.5) (xy 13.5 9.5) (xy 13.5 11.075) (xy -37 11.075) (xy -37 -11.075) (xy 13.5 -11.075)
 			)
+		)
+	)
+	(model "${KIPRJMOD}/library/CHIPSAlliance_Connector.3dshapes/TE_QSFP_Cage_2170704-2.step"
+		(offset
+			(xyz -48.2 0 5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 180 -90)
+		)
+	)
+	(model "${KIPRJMOD}/library/CHIPSAlliance_Connector.3dshapes/TE_zQSFP+_Connector_1551920-2.stp"
+		(offset
+			(xyz -2.9 0 3.4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
 		)
 	)
 )

@@ -13548,7 +13548,7 @@
 			(pin passive line
 				(at 0 -22.86 0)
 				(length 5.08)
-				(name "SH[2]"
+				(name "SH"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -13556,24 +13556,6 @@
 					)
 				)
 				(number "261"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -22.86 0)
-				(length 5.08) hide
-				(name "SH[2]"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "262"
 					(effects
 						(font
 							(size 1.27 1.27)
