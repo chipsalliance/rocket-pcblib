@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(property "Reference" "U?"
+	(property "Reference" "REF**"
 		(at 0.023 -9.75 0)
 		(unlocked yes)
 		(layer "F.SilkS")
@@ -536,6 +536,126 @@
 		(fill none)
 		(layer "F.SilkS")
 		(uuid "3b5a3704-dc9d-4f0d-9d62-360a259319a7")
+	)
+	(fp_line
+		(start -34.8 13.3)
+		(end -34.8 -4.7)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "af7fd17e-25e6-4700-abb9-e5088cab8bd8")
+	)
+	(fp_line
+		(start -34.8 13.3)
+		(end -32.8 13.3)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "9c640242-56d5-463d-abb7-27ac5d328e54")
+	)
+	(fp_line
+		(start -34.8 17.3)
+		(end -32.8 17.3)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "780a730f-db69-4f88-a75f-80515808dcef")
+	)
+	(fp_line
+		(start -34.8 25.3)
+		(end -34.8 17.3)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "6b0908e6-946c-45d8-8ea1-a79c1fcf9094")
+	)
+	(fp_line
+		(start -34.8 25.3)
+		(end 34.8 25.3)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "f59156ed-f3f9-4c3b-8321-e45cf465f5b3")
+	)
+	(fp_line
+		(start -32.8 13.3)
+		(end -32.8 17.3)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "f36883c1-0678-4ce2-a422-b051270ce26c")
+	)
+	(fp_line
+		(start 32.8 13.3)
+		(end 32.8 17.3)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "4b6e30c0-952e-42aa-877e-43fa0c7b4479")
+	)
+	(fp_line
+		(start 32.8 13.3)
+		(end 34.8 13.3)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "6b279445-d4dd-412b-8c0d-a86a62ff55c7")
+	)
+	(fp_line
+		(start 32.8 17.3)
+		(end 34.8 17.3)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "26681317-7024-4a7e-962f-432854d71214")
+	)
+	(fp_line
+		(start 34.8 -4.7)
+		(end -34.8 -4.7)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "16619a7b-a0be-4d6f-b712-d07d59e81098")
+	)
+	(fp_line
+		(start 34.8 13.3)
+		(end 34.8 -4.7)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "c8b4b96c-e49a-41bc-9875-7be129562f74")
+	)
+	(fp_line
+		(start 34.8 25.3)
+		(end 34.8 17.3)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "bc410c74-ee88-4b21-94be-a87d45ffe278")
 	)
 	(fp_circle
 		(center -34.4 -3.95)
@@ -4677,6 +4797,19 @@
 		(layer "User.3")
 		(uuid "c75ca28d-b16d-44a3-9524-4bf1d2e66170")
 	)
+	(fp_text user "max component height 1.4mm under SODIMM"
+		(at 0 12.35 0)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "d04ab59b-71b1-4c3d-80ac-d3c42f8cd110")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify bottom)
+		)
+	)
 	(pad "1" smd rect
 		(at 33.375 -8.05 180)
 		(size 0.3 2)
@@ -6250,6 +6383,7 @@
 		(uuid "a4a3f436-9ef6-4ec5-9d3e-71c991d238ea")
 	)
 	(model "${KIPRJMOD}/library/CHIPSAlliance_Connector.3dshapes/Foxconn_SODDR4_AS0A821-H4SB-7H_2x130P_P0.5mm.STEP"
+		(opacity 0.8300)
 		(offset
 			(xyz 0 46.4 -42.3)
 		)
@@ -6258,6 +6392,17 @@
 		)
 		(rotate
 			(xyz -90 0 -90)
+		)
+	)
+	(model "${KIPRJMOD}/library/CHIPSAlliance_Connector.3dshapes/Micron_SODDR4_Module_DoubleSide.step"
+		(offset
+			(xyz 0 -10.5 3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
 		)
 	)
 )
