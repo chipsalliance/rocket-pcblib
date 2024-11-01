@@ -36,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -48,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +62,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -369,7 +372,7 @@
 		(uuid "a1efdb48-f467-4ee3-a791-d870fd59374f")
 	)
 	(pad "13" thru_hole circle
-		(at -1.4 -1.32)
+		(at -1.25 -1.32)
 		(size 0.5 0.5)
 		(drill 0.2)
 		(property pad_prop_heatsink)
@@ -378,7 +381,7 @@
 		(uuid "3bee73fe-f20f-488f-adbd-df05b75573bd")
 	)
 	(pad "13" thru_hole circle
-		(at -1.4 0)
+		(at -1.25 0)
 		(size 0.5 0.5)
 		(drill 0.2)
 		(property pad_prop_heatsink)
@@ -387,22 +390,13 @@
 		(uuid "6f896bb4-1fc4-4fda-a534-180ea744fb8b")
 	)
 	(pad "13" thru_hole circle
-		(at -1.4 1.32)
+		(at -1.25 1.32)
 		(size 0.5 0.5)
 		(drill 0.2)
 		(property pad_prop_heatsink)
 		(layers "*.Cu")
 		(remove_unused_layers no)
 		(uuid "7a204f71-105c-4f1d-a8d5-9b23e05e4060")
-	)
-	(pad "13" thru_hole circle
-		(at 0 -2.45)
-		(size 0.5 0.5)
-		(drill 0.2)
-		(property pad_prop_heatsink)
-		(layers "*.Cu")
-		(remove_unused_layers no)
-		(uuid "7d72212c-9f41-441e-ac40-42ec12967ac3")
 	)
 	(pad "13" thru_hole circle
 		(at 0 -1.32)
@@ -448,16 +442,7 @@
 		(uuid "9ab2d749-2ef0-4126-a0f6-96c5157d58a3")
 	)
 	(pad "13" thru_hole circle
-		(at 0 2.45)
-		(size 0.5 0.5)
-		(drill 0.2)
-		(property pad_prop_heatsink)
-		(layers "*.Cu")
-		(remove_unused_layers no)
-		(uuid "0fc59dca-e985-4367-bd0c-d866d444f55c")
-	)
-	(pad "13" thru_hole circle
-		(at 1.4 -1.32)
+		(at 1.25 -1.32)
 		(size 0.5 0.5)
 		(drill 0.2)
 		(property pad_prop_heatsink)
@@ -466,7 +451,7 @@
 		(uuid "f8a8cd81-c5fd-43fd-8f4c-2ea396b2b21a")
 	)
 	(pad "13" thru_hole circle
-		(at 1.4 0)
+		(at 1.25 0)
 		(size 0.5 0.5)
 		(drill 0.2)
 		(property pad_prop_heatsink)
@@ -475,7 +460,7 @@
 		(uuid "616362e6-a168-4247-a9f6-240ff35999f2")
 	)
 	(pad "13" thru_hole circle
-		(at 1.4 1.32)
+		(at 1.25 1.32)
 		(size 0.5 0.5)
 		(drill 0.2)
 		(property pad_prop_heatsink)

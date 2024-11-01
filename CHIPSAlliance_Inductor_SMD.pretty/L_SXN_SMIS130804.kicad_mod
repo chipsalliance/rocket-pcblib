@@ -36,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -48,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +62,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -227,18 +230,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "a1c1ba98-4c63-445d-b03e-e8a68af61b90")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_SXN_SMIS130804.wrl"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
-	(model "${KIPRJMOD}/library/CHIPSAlliance_Inductor_SMD.3dshapes/L_SXN_SMIS130804.step"
+	(model "${KIPRJMOD}/library/CHIPSAlliance_Inductor_SMD.3dshapes/L_SXN_SMIS130804.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

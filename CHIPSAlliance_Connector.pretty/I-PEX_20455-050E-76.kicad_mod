@@ -163,19 +163,6 @@
 		(layer "F.CrtYd")
 		(uuid "5ba819be-c12c-4172-9745-089e97ec12a7")
 	)
-	(fp_poly
-		(pts
-			(xy -16.6 -3.35) (xy 16.6 -3.35) (xy 16.6 3.35) (xy 16.05 3.35) (xy 16.05 -0.05) (xy 14.65 -0.05)
-			(xy 14.65 -2.37) (xy -14.65 -2.37) (xy -14.65 -0.05) (xy -16.05 -0.05) (xy -16.05 3.35) (xy -16.6 3.35)
-		)
-		(stroke
-			(width 0.001)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.CrtYd")
-		(uuid "fbfabf35-a1c8-472b-b545-2a88250a13b7")
-	)
 	(fp_line
 		(start -14.735 -2.05)
 		(end 14.735 -2.05)
@@ -604,6 +591,35 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(solder_mask_margin 0.102)
 		(uuid "17baf9f5-3d68-48ba-a172-6e31b0877602")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "799d32ec-e601-418f-8241-2f479a2ca86a")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour allowed)
+			(footprints not_allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -16.6 -3.35) (xy 16.6 -3.35) (xy 16.6 3.35) (xy 16.05 3.35) (xy 16.05 -0.05) (xy 14.65 -0.05)
+				(xy 14.65 -2.37) (xy -14.65 -2.37) (xy -14.65 -0.05) (xy -16.05 -0.05) (xy -16.05 3.35) (xy -16.6 3.35)
+			)
+		)
 	)
 	(model "${KIPRJMOD}/library/CHIPSAlliance_Connector.3dshapes/IPEX_20455-050E-76.step"
 		(offset

@@ -1,0 +1,243 @@
+(footprint "L_TDK_VLBU1007090"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Inductor, TDK, VLBU1007090, 10.0x7.0x9.0mm, (https://product.tdk.com/info/en/catalog/datasheets/inductor_commercial_power_vlbu1007090_en.pdf), generated with kicad-footprint-generator gen_inductor.py")
+	(tags "Inductor VLBU")
+	(property "Reference" "REF**"
+		(at 0 -4.5 0)
+		(layer "F.SilkS")
+		(uuid "5c3b2c5a-0635-419b-a04f-433f1a039010")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_TDK_VLBU1007090"
+		(at 0 4.5 0)
+		(layer "F.Fab")
+		(uuid "ce17e409-8de5-4543-8dfe-3a234a8d1900")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c47c59ba-53fa-4a27-899e-21a2f09d11fd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6215df72-0e2a-4e02-b525-743c07ed8f57")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fb0aa098-0e6f-48fa-a83c-d3562472d892")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -5.26 -3.76)
+		(end -5.26 -1.76)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3b09461a-b939-4f25-8e16-e8f593e4e85a")
+	)
+	(fp_line
+		(start -5.26 -3.76)
+		(end 5.26 -3.76)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "af81b745-793f-4db1-834d-1c84dee5ad3d")
+	)
+	(fp_line
+		(start -5.26 3.76)
+		(end -5.26 1.76)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9ad495a5-eb35-413c-bcdc-d04ff1a474d1")
+	)
+	(fp_line
+		(start -5.26 3.76)
+		(end 5.26 3.76)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "024266d4-8c8c-45a9-86c2-25564da239d0")
+	)
+	(fp_line
+		(start 5.26 -3.76)
+		(end 5.26 -1.76)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e55510b7-dbb2-4239-855f-1c4310b903e7")
+	)
+	(fp_line
+		(start 5.26 3.76)
+		(end 5.26 1.76)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3bb961d9-2340-4cdd-95d5-b251115ac164")
+	)
+	(fp_line
+		(start -5.75 -3.75)
+		(end -5.75 3.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9f4016bb-ef5a-4e5f-9f7c-e5d62411ccd2")
+	)
+	(fp_line
+		(start -5.75 3.75)
+		(end 5.75 3.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "813d6e33-8246-411d-a913-db31df58d277")
+	)
+	(fp_line
+		(start 5.75 -3.75)
+		(end -5.75 -3.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a09208b5-6bb1-43a2-aed6-eda5f01f3114")
+	)
+	(fp_line
+		(start 5.75 3.75)
+		(end 5.75 -3.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b5dd012c-2306-42bc-951f-9dd9c6955906")
+	)
+	(fp_line
+		(start -5 -3.5)
+		(end -5 3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "218595cb-7d17-4dc3-90a7-41a9f2b05320")
+	)
+	(fp_line
+		(start -5 3.5)
+		(end 5 3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2fb123d1-f34a-47f2-87d9-baddbc1ef3b7")
+	)
+	(fp_line
+		(start 5 -3.5)
+		(end -5 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c9849353-cc46-44b6-9645-3aab9c5fb8ff")
+	)
+	(fp_line
+		(start 5 3.5)
+		(end 5 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "938c4593-499a-4293-a34e-648d48898899")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "867823c4-2a50-409b-98c1-1c7f3a9b0134")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -3.9 0)
+		(size 3.2 3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "e25f596d-f98e-4167-b41d-7b6245592b01")
+	)
+	(pad "2" smd roundrect
+		(at 3.9 0)
+		(size 3.2 3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "7e2e0e0d-23db-4ba6-93bf-71d4b6ea9382")
+	)
+	(model "${KIPRJMOD}/library/CHIPSAlliance_Inductor_SMD.3dshapes/L_TDK_VLBU1007090.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
