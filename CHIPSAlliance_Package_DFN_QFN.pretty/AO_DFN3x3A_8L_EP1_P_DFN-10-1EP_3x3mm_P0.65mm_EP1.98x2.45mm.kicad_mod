@@ -36,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -48,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +62,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -339,7 +342,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "084f5e87-eae3-4dcc-9fd1-ca1f3ae366ca")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/AO_DFN3x3A_8L_EP1_P_DFN-10-1EP_3x3mm_P0.65mm_EP1.98x2.45mm.wrl"
+	(model "${KIPRJMOD}/library/CHIPSAlliance_Package_DFN_QFN.3dshapes/AO_DFN3x3A_8L_EP1_P_DFN-10-1EP_3x3mm_P0.65mm_EP1.98x2.45mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

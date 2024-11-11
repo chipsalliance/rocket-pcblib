@@ -13,7 +13,7 @@
 					(size 1.27 1.27)
 				)
 			)
-		)c
+		)
 		(property "Value" "74LVC245ABQ"
 			(at 9.525 17.145 0)
 			(effects
