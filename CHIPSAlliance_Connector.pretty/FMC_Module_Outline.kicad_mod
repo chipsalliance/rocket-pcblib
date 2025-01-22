@@ -66,7 +66,7 @@
 			)
 		)
 	)
-	(attr through_hole exclude_from_pos_files exclude_from_bom)
+	(attr through_hole exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 	(fp_line
 		(start -65.6 -61.3)
 		(end -65.6 -0.3)
@@ -357,106 +357,6 @@
 		(fill none)
 		(layer "Dwgs.User")
 		(uuid "a557fa32-bc09-4fd8-9219-f8644314925e")
-	)
-	(fp_line
-		(start -65.9 -61.6)
-		(end -54.4 -61.6)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(layer "F.CrtYd")
-		(uuid "39838449-c668-4eb6-9c62-116623af8f4f")
-	)
-	(fp_line
-		(start -65.9 0)
-		(end -65.9 -61.6)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(layer "F.CrtYd")
-		(uuid "2a003fbf-02f4-4fd2-a63e-1c5f4162980e")
-	)
-	(fp_line
-		(start -54.4 -63.7)
-		(end -43.6 -63.7)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(layer "F.CrtYd")
-		(uuid "481d7b8e-90a4-4ff5-82c2-a5461f60e450")
-	)
-	(fp_line
-		(start -54.4 -61.6)
-		(end -54.4 -63.7)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(layer "F.CrtYd")
-		(uuid "d185dbbc-b5cc-4cba-a36d-f2ec9413b63b")
-	)
-	(fp_line
-		(start -43.6 -66.3)
-		(end 18.7 -66.3)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(layer "F.CrtYd")
-		(uuid "440dfdcd-9c87-4206-8f81-5172ab560316")
-	)
-	(fp_line
-		(start -43.6 -63.7)
-		(end -43.6 -66.3)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(layer "F.CrtYd")
-		(uuid "0ceff212-1c46-4e02-9093-046a4396c5ae")
-	)
-	(fp_line
-		(start -38.8 0)
-		(end -65.9 0)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(layer "F.CrtYd")
-		(uuid "a1ad2f94-06e7-4960-ac64-da10ccd97a08")
-	)
-	(fp_line
-		(start -38.8 3.3)
-		(end -38.8 0)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(layer "F.CrtYd")
-		(uuid "2c112f5b-a440-4fea-a12c-d1fd8a9e7b6b")
-	)
-	(fp_line
-		(start 18.7 -66.3)
-		(end 18.7 3.3)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(layer "F.CrtYd")
-		(uuid "0406a979-8bc2-4cac-b67f-08c31ffb4d8a")
-	)
-	(fp_line
-		(start 18.7 3.3)
-		(end -38.8 3.3)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(layer "F.CrtYd")
-		(uuid "e7013970-7ce9-4974-a32d-8c384c55670f")
 	)
 	(fp_text user "Keepout for mezzanine module I/O region"
 		(at -62.4 -14 90)
