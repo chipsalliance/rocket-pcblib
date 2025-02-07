@@ -237,7 +237,7 @@
 	)
 	(symbol "Bus_PCI_Express_Edge_x16"
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(property "Reference" "J"
 			(at -8.89 66.04 0)
