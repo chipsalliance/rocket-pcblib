@@ -67,7 +67,7 @@
   (fp_text user ${REFERENCE} (at 0 0) (layer F.Fab)
     (effects (font (size 0.75 0.75) (thickness 0.11)))
   )
-  (model ${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Texas_RGT0016C_VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm.wrl
+  (model ${KIPRJMOD}/library/CHIPSAlliance_Package_DFN_QFN.3dshapes/Texas_RGT0016C_VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm.step
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

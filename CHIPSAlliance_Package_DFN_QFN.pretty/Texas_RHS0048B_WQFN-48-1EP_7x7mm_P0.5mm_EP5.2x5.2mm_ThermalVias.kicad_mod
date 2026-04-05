@@ -846,7 +846,7 @@
 		(layers "*.Cu")
 		(remove_unused_layers no)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Texas_RHS0048B_WQFN-48-1EP_7x7mm_P0.5mm_EP5.2x5.2mm.wrl"
+	(model "${KIPRJMOD}/library/CHIPSAlliance_Package_DFN_QFN.3dshapes/Texas_RHS0048B_WQFN-48-1EP_7x7mm_P0.5mm_EP5.2x5.2mm.step"
 		(offset
 			(xyz 0 0 0)
 		)
