@@ -14946,7 +14946,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "5e8822b8-b330-462c-8384-4fc930e0654e")
 	)
-	(model "${KIPRJMOD}/library/CHIPSAlliance_Package_BGA.3dshapes/BGA-2104_52.5x52.5mm_Layout55x55_P1.0mm_Ball0.60mm_Pad0.53mm_NSMD.wrl"
+	(model "${KIPRJMOD}/library/CHIPSAlliance_Package_BGA.3dshapes/BGA-2104_52.5x52.5mm_Layout55x55_P1.0mm_Ball0.60mm_Pad0.53mm_NSMD.step"
 		(offset
 			(xyz 0 0 0)
 		)

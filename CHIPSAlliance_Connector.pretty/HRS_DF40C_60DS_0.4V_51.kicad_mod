@@ -111,7 +111,7 @@
   (pad "57" smd rect (at 5.4 1.54) (size 0.2 1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c41e3806-7e39-4ede-a465-47144cddaac5))
   (pad "58" smd rect (at 5.4 -1.54 180) (size 0.2 1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f93139ef-9972-405c-b760-715af5d40596))
   (pad "59" smd rect (at 5.8 1.54) (size 0.2 1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 6481754b-aa39-4987-bb0f-bf40556f28ff))
-  (model "${KIPRJMOD}/library/CHIPSAlliance_Connector.3dshapes/HRS_DF40C_60DS_0.4V_51.wrl"
+  (model "${KIPRJMOD}/library/CHIPSAlliance_Connector.3dshapes/HRS_DF40C_60DS_0.4V_51.step"
     (offset (xyz 0 -0 -0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

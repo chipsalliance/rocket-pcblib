@@ -153,7 +153,7 @@
   (pad "10" smd rect (at 2.52 1.27) (size 3 1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 56a3b641-5e17-428e-8ecf-3ef01292913a))
   (pad "11" smd rect (at 2.52 3.81) (size 3 1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 1976addd-d212-49ca-99c9-c5e97231da7c))
   (pad "12" smd rect (at 2.52 6.35) (size 3 1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 0921ce6b-ef6f-4468-932c-aa477ff75e25))
-  (model "${KIPRJMOD}/library/CHIPSAlliance_Connector.3dshapes/PinSocket_2x06_P2.54mm_Vertical_SMD.wrl"
+  (model "${KIPRJMOD}/library/CHIPSAlliance_Connector.3dshapes/PinSocket_2x06_P2.54mm_Vertical_SMD.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

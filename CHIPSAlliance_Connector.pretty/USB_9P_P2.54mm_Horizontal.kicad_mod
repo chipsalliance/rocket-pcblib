@@ -1050,7 +1050,7 @@
 		(remove_unused_layers no)
 		(uuid "e4af602f-470d-44a8-9bde-b668a1c28433")
 	)
-	(model "${KIPRJMOD}/library/CHIPSAlliance_Connector.3dshapes/PinHeader_2x05_P2.54mm_Horizontal_NoPin2.wrl"
+	(model "${KIPRJMOD}/library/CHIPSAlliance_Connector.3dshapes/PinHeader_2x05_P2.54mm_Horizontal_NoPin2.step"
 		(offset
 			(xyz 0 5.08 0)
 		)

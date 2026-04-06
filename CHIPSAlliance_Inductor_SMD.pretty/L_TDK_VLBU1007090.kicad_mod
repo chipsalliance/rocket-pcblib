@@ -229,7 +229,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "7e2e0e0d-23db-4ba6-93bf-71d4b6ea9382")
 	)
-	(model "${KIPRJMOD}/library/CHIPSAlliance_Inductor_SMD.3dshapes/L_TDK_VLBU1007090.wrl"
+	(model "${KIPRJMOD}/library/CHIPSAlliance_Inductor_SMD.3dshapes/L_TDK_VLBU1007090.step"
 		(offset
 			(xyz 0 0 0)
 		)

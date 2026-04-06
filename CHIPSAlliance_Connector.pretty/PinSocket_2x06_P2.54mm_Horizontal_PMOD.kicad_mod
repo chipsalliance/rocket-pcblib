@@ -200,7 +200,7 @@
   (pad "10" thru_hole oval (at 2.54 7.62) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 91108f6d-e9da-40c7-b240-93d33493e5fd))
   (pad "11" thru_hole oval (at 2.54 10.16) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 617932a0-909e-4918-983a-08178f066d53))
   (pad "12" thru_hole oval (at 2.54 12.7) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 35ea4e74-da2b-4efc-accf-888c35a8003f))
-  (model "${KIPRJMOD}/library/CHIPSAlliance_Connector.3dshapes/PinSocket_2x06_P2.54mm_Horizontal.wrl"
+  (model "${KIPRJMOD}/library/CHIPSAlliance_Connector.3dshapes/PinSocket_2x06_P2.54mm_Horizontal.step"
     (offset (xyz 2.54 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
