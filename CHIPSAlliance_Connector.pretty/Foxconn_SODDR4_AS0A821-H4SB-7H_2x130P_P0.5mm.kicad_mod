@@ -6382,7 +6382,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "a4a3f436-9ef6-4ec5-9d3e-71c991d238ea")
 	)
-	(model "${KIPRJMOD}/library/CHIPSAlliance_Connector.3dshapes/Foxconn_SODDR4_AS0A821-H4SB-7H_2x130P_P0.5mm.STEP"
+	(model "${KIPRJMOD}/library/CHIPSAlliance_Connector.3dshapes/Foxconn_SODDR4_AS0A821-H4SB-7H_2x130P_P0.5mm.step"
 		(opacity 0.8300)
 		(offset
 			(xyz 0 46.4 -42.3)
