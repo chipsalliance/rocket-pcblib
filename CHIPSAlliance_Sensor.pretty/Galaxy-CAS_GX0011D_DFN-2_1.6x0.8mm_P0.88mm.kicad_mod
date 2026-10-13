@@ -1,0 +1,231 @@
+(footprint "Galaxy-CAS_GX0011D_DFN-2_1.6x0.8mm_P0.88mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Galaxy-CAS GX0011D asymmetric DFN-2, 1.6x0.8mm body, 0.88mm nominal terminal pitch; inherited unequal PCB lands have approximately 1.20mm center spacing. Datasheet V1.3 July 2022, page 7: https://atta.szlcsc.com/upload/public/pdf/source/20220825/D85F592E022AAF78F6757F29A4BB9D3B.pdf")
+	(tags "DFN temperature sensor Galaxy-CAS GX0011D asymmetric")
+	(property "Reference" "REF**"
+		(at 0 -1.8 0)
+		(layer "F.SilkS")
+		(uuid "a4c4eb1a-7cf3-4949-85b0-d9fb9f26d45c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Galaxy-CAS_GX0011D_DFN-2_1.6x0.8mm_P0.88mm"
+		(at 0 1.8 0)
+		(layer "F.Fab")
+		(uuid "738211d6-35a4-442c-a09e-bf952adb5a3d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0640fe21-41cd-4c08-993f-3437cdae4b2c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ae3aaa87-66b1-4e9b-b1a4-7df726afef79")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.49695 0.6)
+		(end -1.49695 -0.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "71e2448c-6e3c-4630-b170-b61b6643a60a")
+	)
+	(fp_line
+		(start -1.2 -0.6)
+		(end 1.2 -0.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "65bbc4d6-94f2-44a5-860b-d6e2a384a54a")
+	)
+	(fp_line
+		(start -1.2 0.6)
+		(end -1.2 -0.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "68ae3893-3d4c-47e0-b1ea-2573e21b7535")
+	)
+	(fp_line
+		(start -1.2 0.6)
+		(end 1.2 0.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3f64172f-c758-4475-8f77-a7f2d9b11f5e")
+	)
+	(fp_line
+		(start 1.2 0.6)
+		(end 1.2 -0.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eccd2563-b7e8-4029-8d1e-717987e85ba7")
+	)
+	(fp_line
+		(start -1.28 -0.68)
+		(end 1.26 -0.68)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cdcdee0f-583a-4b13-9f58-188e2289a1ba")
+	)
+	(fp_line
+		(start -1.28 0.68)
+		(end -1.28 -0.68)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "81760f6b-27eb-4c70-99f6-89a5015acbb5")
+	)
+	(fp_line
+		(start -1.28 0.68)
+		(end 1.26 0.68)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a72a4448-a67c-4546-ac99-e200f5b0fbb7")
+	)
+	(fp_line
+		(start 1.26 0.68)
+		(end 1.26 -0.68)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3d4c80fe-049f-4491-9130-a04e880d2f01")
+	)
+	(fp_line
+		(start -0.8 -0.2)
+		(end -0.6 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "642af28c-6e15-4c93-9ada-24302caba811")
+	)
+	(fp_line
+		(start -0.8 0.4)
+		(end -0.8 -0.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "941325ac-a90d-48f0-b90f-316e7da397c7")
+	)
+	(fp_line
+		(start -0.8 0.4)
+		(end 0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "75460369-402c-4c43-9f88-92a918883707")
+	)
+	(fp_line
+		(start -0.6 -0.4)
+		(end 0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7e381b49-6a12-4082-b608-2073e307c45b")
+	)
+	(fp_line
+		(start 0.8 0.4)
+		(end 0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e8b3618c-0ad0-47e0-a930-5ae29dbf594a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.85 0)
+		(layer "F.Fab")
+		(uuid "e805e16d-5830-4dad-a81f-ff9776606be3")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.77495 0 90)
+		(size 0.85 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "7a1c3faf-4c8b-4be7-86ec-8667005802cc")
+	)
+	(pad "2" smd roundrect
+		(at 0.425 0 90)
+		(size 0.85 1.17)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "f4fffa78-b9e4-4ab2-b2ce-e5486728df5b")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/library/CHIPSAlliance_Sensor.3dshapes/Galaxy-CAS_GX0011D_DFN-2_1.6x0.8mm_P0.88mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
