@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "4-ball WLCSP, nominal 0.8x0.8mm body, 2x2 array, 0.4mm pitch; 0.22mm design ball, 0.25mm copper lands, 0.32mm NSMD mask openings. Shared by AK09918C, MMC5603NJ and QMC6308; device body and ball tolerances differ. Land selection is an engineering compromise, verify device recommendations and assembly tolerances. NSMD guidance: NXP AN10439 Rev.7 Table 2, https://assets.nexperia.com/documents/application-note/AN10439.pdf Courtyard: 0.15mm beyond nominal body/lands for dense placement; deliberate exception to KLC F5.3 WLCSP 1.0mm default.")
+	(descr "4-ball WLCSP, nominal 0.8x0.8mm body, 2x2 array, 0.4mm pitch; 0.22mm design ball, 0.25mm copper lands, 0.32mm NSMD mask openings. Shared by AK09918C, MMC5603NJ and QMC6308/QMC6309; device body and ball tolerances differ. Land selection is an engineering compromise, verify device recommendations and assembly tolerances. NSMD guidance: NXP AN10439 Rev.7 Table 2, https://assets.nexperia.com/documents/application-note/AN10439.pdf Courtyard: 0.15mm beyond nominal body/lands for dense placement; deliberate exception to KLC F5.3 WLCSP 1.0mm default.")
 	(tags "WLP WLCSP CSP BGA 4 ball 0.4mm pitch magnetometer compass")
 	(property "Reference" "REF**"
 		(at 0 -1.8 0)
