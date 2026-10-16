@@ -1,0 +1,186 @@
+(footprint "SW_Push_1P1T_NO_SAMZO_C4B1802110"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SAMZO C4B1802110 normally-open switch, 3.5x3.0x1.8mm; recommended 1.25x0.90mm lands at x=+/-2.225mm y=+/-0.75mm; source https://atta.szlcsc.com/upload/public/pdf/source/20250721/FC1E3B81B3AA2D2C01374348D55797E2.pdf")
+	(tags "SMD")
+	(property "Reference" "REF**"
+		(at 0 -2.6 0)
+		(layer "F.SilkS")
+		(uuid "c2839d94-4165-4bb9-bee4-81435b27b1d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_Push_1P1T_NO_SAMZO_C4B1802110"
+		(at 0 2.6 0)
+		(layer "F.Fab")
+		(uuid "6da0e073-c016-4bbf-924e-7778105b3c71")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3ea360f5-399f-4806-a18f-31fd12a2c71d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8ce89eee-a03e-49ca-b190-4232c28d8be2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.75 -1.61)
+		(end 1.75 -1.61)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c7b1edd6-9035-44fa-ae61-bc9c93b31dcc")
+	)
+	(fp_line
+		(start -1.75 1.61)
+		(end 1.75 1.61)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "63aa8425-82a8-4a0a-9354-a499ed3e16f1")
+	)
+	(fp_rect
+		(start -3.1 -1.75)
+		(end 3.1 1.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "28156843-85fe-4f74-a5af-820dae84c645")
+	)
+	(fp_line
+		(start -1.75 -1.2)
+		(end -1.45 -1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "adeadb22-4fbc-48c0-9c47-4e70838835b7")
+	)
+	(fp_line
+		(start -1.75 1.5)
+		(end -1.75 -1.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "5eab9457-82fd-460c-b548-3b5e7b409c63")
+	)
+	(fp_line
+		(start -1.45 -1.5)
+		(end 1.75 -1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "b8b6cdbe-c97d-4cb0-88b9-44ef28e99981")
+	)
+	(fp_line
+		(start 1.75 -1.5)
+		(end 1.75 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "6bcdb1cb-2bb7-4af1-add3-71c73958a17a")
+	)
+	(fp_line
+		(start 1.75 1.5)
+		(end -1.75 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "0abe1c7a-207b-428a-8355-8f17f433ba77")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "d16ccdd6-6c94-4010-8aa4-3239250c28d4")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.225 -0.75)
+		(size 1.25 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "3c4a5ab9-cb4c-46ea-b250-005e19c1df28")
+	)
+	(pad "2" smd roundrect
+		(at 2.225 -0.75)
+		(size 1.25 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "70272575-08b7-45ea-a233-01b2d0833978")
+	)
+	(pad "3" smd roundrect
+		(at -2.225 0.75)
+		(size 1.25 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "20ed5b36-0876-4be0-9c37-8c1f0ef20eb6")
+	)
+	(pad "4" smd roundrect
+		(at 2.225 0.75)
+		(size 1.25 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "8a1d79c9-c653-4c25-94c4-abe554d5f0c3")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/library/CHIPSAlliance_Button_Switch_SMD.3dshapes/SW_Push_1P1T_NO_SAMZO_C4B1802110.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
