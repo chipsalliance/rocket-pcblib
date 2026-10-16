@@ -1,0 +1,176 @@
+(footprint "LED_Worldsemi_WS2812B-1313-V6_1.3x1.3mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Worldsemi WS2812B-1313-V6, nominal 1.3x1.3x0.65mm; 0.4mm terminals with 0.4mm row gap, symmetric 0.8mm centres inferred from package drawing; 0.55mm PCB lands are an engineering land-pattern choice, not a manufacturer recommendation; pin 1 top left; source https://www.world-semi.com/downloads/datasheets/en/ws2812b-1313-v6-1.0.pdf")
+	(tags "SMD")
+	(property "Reference" "REF**"
+		(at 0 -1.85 0)
+		(layer "F.SilkS")
+		(uuid "03ff1630-8eff-4e0f-b36b-455417eeeecf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED_Worldsemi_WS2812B-1313-V6_1.3x1.3mm"
+		(at 0 1.85 0)
+		(layer "F.Fab")
+		(uuid "5e9df830-c239-4956-a4da-2aa32c1bb31f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7a23c31a-b840-4bc1-ac48-f1ddfc2c7604")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "974d28ec-c9e2-4f35-8379-17788261df6c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.9 -0.75)
+		(end -0.9 -0.3)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9f7352b4-f7fb-4740-8eb1-536a798d3b4e")
+	)
+	(fp_rect
+		(start -1 -1)
+		(end 1 1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "8fa257e8-356e-4b76-b1f1-d0ee33c7d465")
+	)
+	(fp_line
+		(start -0.65 -0.433333)
+		(end -0.433333 -0.65)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "d5426bff-0635-4114-b195-ee50d1055010")
+	)
+	(fp_line
+		(start -0.65 0.65)
+		(end -0.65 -0.433333)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "69975ec9-e27b-4393-bae9-37f7941898ca")
+	)
+	(fp_line
+		(start -0.433333 -0.65)
+		(end 0.65 -0.65)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "8c65afe3-57ab-4dcc-bea1-e7763d8a1ab9")
+	)
+	(fp_line
+		(start 0.65 -0.65)
+		(end 0.65 0.65)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "0bf4ba11-82ce-4a8b-af8f-e60a0d4a356d")
+	)
+	(fp_line
+		(start 0.65 0.65)
+		(end -0.65 0.65)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "370b6489-fcda-4c9c-9680-737fb257ba8e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "91d47c20-f928-414a-90fe-e70232d56374")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.4 -0.4)
+		(size 0.55 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "8b375d8d-5f47-4183-b566-a1a6176ea400")
+	)
+	(pad "2" smd roundrect
+		(at -0.4 0.4)
+		(size 0.55 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "054e344e-8faf-4a3e-926f-270f709e38bc")
+	)
+	(pad "3" smd roundrect
+		(at 0.4 0.4)
+		(size 0.55 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "d17a8904-404c-40e8-9eb5-d758fc49eaeb")
+	)
+	(pad "4" smd roundrect
+		(at 0.4 -0.4)
+		(size 0.55 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "1f8e0a31-3555-4b7a-b96c-1195507f932b")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/library/CHIPSAlliance_LED.3dshapes/LED_Worldsemi_WS2812B-1313-V6_1.3x1.3mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
