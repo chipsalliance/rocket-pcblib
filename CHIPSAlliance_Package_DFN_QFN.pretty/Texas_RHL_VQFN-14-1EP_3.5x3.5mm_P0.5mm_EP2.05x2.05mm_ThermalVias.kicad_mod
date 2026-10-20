@@ -1,4 +1,4 @@
-(footprint "Texas_VQFN-RHL-14_ThermalVias"
+(footprint "Texas_RHL_VQFN-14-1EP_3.5x3.5mm_P0.5mm_EP2.05x2.05mm_ThermalVias"
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "Texas_VQFN-RHL-14_ThermalVias"
+	(property "Value" "Texas_RHL_VQFN-14-1EP_3.5x3.5mm_P0.5mm_EP2.05x2.05mm_ThermalVias"
 		(at 0 3.7 0)
 		(layer "F.Fab")
 		(uuid "ac7037fc-eae8-4c36-b355-0d02bf386963")
@@ -469,7 +469,7 @@
 		(uuid "66ce4fc2-f5aa-4714-bc33-9d5f63d595f1")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/library/CHIPSAlliance_Package_DFN_QFN.3dshapes/Texas_VQFN-RHL-14_3.5x3.5mm_P0.5mm_EP2.05x2.05mm.step"
+	(model "${KIPRJMOD}/library/CHIPSAlliance_Package_DFN_QFN.3dshapes/Texas_RHL_VQFN-14-1EP_3.5x3.5mm_P0.5mm_EP2.05x2.05mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

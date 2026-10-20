@@ -5,7 +5,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 6a707656-9df4-4713-a5fe-7d525de99b78)
   )
-  (fp_text value "TF-SMD_503398-1892" (at 0 8) (layer "F.Fab")
+  (fp_text value "microSD_HC_Molex_503398-1892" (at 0 8) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 9be38cfb-a008-4c6f-a77b-171b12436515)
   )

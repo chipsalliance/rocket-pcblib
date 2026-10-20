@@ -285,7 +285,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 1.27 0)
+			(at -5.08 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -294,7 +294,7 @@
 			)
 		)
 		(property "Value" "RCLAMP0524P"
-			(at 0 -26.67 0)
+			(at -5.08 -13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -303,7 +303,7 @@
 			)
 		)
 		(property "Footprint" "CHIPSAlliance_Package_SON:USON-10_2.5x1.0mm_P0.5mm"
-			(at 0 -29.21 0)
+			(at -5.08 -16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -313,7 +313,7 @@
 			)
 		)
 		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20210810/AE3DE9AC94AD2A317FD9BEA10653400F.pdf"
-			(at 0 -31.75 0)
+			(at -5.08 -19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -323,7 +323,7 @@
 			)
 		)
 		(property "Description" "4-Channel ESD Protection Diode for USB Type-C and HDMI 2.0, USON-10"
-			(at 0 0 0)
+			(at -5.08 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -332,7 +332,7 @@
 			)
 		)
 		(property "ki_keywords" "ESD protection USB HDMI"
-			(at 0 0 0)
+			(at -5.08 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -341,7 +341,7 @@
 			)
 		)
 		(property "ki_fp_filters" "USON*2.5x1.0mm*P0.5mm*"
-			(at 0 0 0)
+			(at -5.08 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -351,7 +351,7 @@
 		)
 		(symbol "RCLAMP0524P_0_0"
 			(pin passive line
-				(at 7.62 -27.94 90)
+				(at 2.54 -15.24 90)
 				(length 2.54)
 				(name "G"
 					(effects
@@ -372,7 +372,7 @@
 		(symbol "RCLAMP0524P_0_1"
 			(polyline
 				(pts
-					(xy 0 -20.32) (xy 7.62 -20.32)
+					(xy -5.08 -7.62) (xy 2.54 -7.62)
 				)
 				(stroke
 					(width 0)
@@ -384,7 +384,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -15.24) (xy 7.62 -15.24)
+					(xy -5.08 -2.54) (xy 2.54 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -396,7 +396,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -7.62) (xy 7.62 -7.62)
+					(xy -5.08 5.08) (xy 2.54 5.08)
 				)
 				(stroke
 					(width 0)
@@ -408,7 +408,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -2.54) (xy 7.62 -2.54)
+					(xy -5.08 10.16) (xy 2.54 10.16)
 				)
 				(stroke
 					(width 0)
@@ -420,7 +420,7 @@
 			)
 			(polyline
 				(pts
-					(xy 7.62 -2.54) (xy 7.62 -25.4)
+					(xy 2.54 10.16) (xy 2.54 -12.7)
 				)
 				(stroke
 					(width 0.1524)
@@ -432,7 +432,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.81 -20.32) (xy 5.08 -20.955) (xy 5.08 -19.685) (xy 3.81 -20.32)
+					(xy -1.27 -7.62) (xy 0 -8.255) (xy 0 -6.985) (xy -1.27 -7.62)
 				)
 				(stroke
 					(width 0)
@@ -444,7 +444,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.81 -15.24) (xy 5.08 -15.875) (xy 5.08 -14.605) (xy 3.81 -15.24)
+					(xy -1.27 -2.54) (xy 0 -3.175) (xy 0 -1.905) (xy -1.27 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -456,7 +456,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.81 -7.62) (xy 5.08 -8.255) (xy 5.08 -6.985) (xy 3.81 -7.62)
+					(xy -1.27 5.08) (xy 0 4.445) (xy 0 5.715) (xy -1.27 5.08)
 				)
 				(stroke
 					(width 0)
@@ -468,7 +468,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.81 -2.54) (xy 5.08 -3.175) (xy 5.08 -1.905) (xy 3.81 -2.54)
+					(xy -1.27 10.16) (xy 0 9.525) (xy 0 10.795) (xy -1.27 10.16)
 				)
 				(stroke
 					(width 0)
@@ -479,8 +479,8 @@
 				)
 			)
 			(rectangle
-				(start 0 0)
-				(end 10.16 -25.4)
+				(start -5.08 12.7)
+				(end 5.08 -12.7)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -490,7 +490,7 @@
 				)
 			)
 			(circle
-				(center 7.62 -20.32)
+				(center 2.54 -7.62)
 				(radius 0.254)
 				(stroke
 					(width 0)
@@ -501,7 +501,7 @@
 				)
 			)
 			(circle
-				(center 7.62 -15.24)
+				(center 2.54 -2.54)
 				(radius 0.254)
 				(stroke
 					(width 0)
@@ -512,7 +512,7 @@
 				)
 			)
 			(circle
-				(center 7.62 -7.62)
+				(center 2.54 5.08)
 				(radius 0.254)
 				(stroke
 					(width 0)
@@ -526,7 +526,7 @@
 		(symbol "RCLAMP0524P_1_1"
 			(polyline
 				(pts
-					(xy 3.556 -20.955) (xy 3.81 -20.701) (xy 3.81 -19.939) (xy 4.064 -19.685)
+					(xy -1.524 -8.255) (xy -1.27 -8.001) (xy -1.27 -7.239) (xy -1.016 -6.985)
 				)
 				(stroke
 					(width 0)
@@ -538,7 +538,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.556 -15.875) (xy 3.81 -15.621) (xy 3.81 -14.859) (xy 4.064 -14.605)
+					(xy -1.524 -3.175) (xy -1.27 -2.921) (xy -1.27 -2.159) (xy -1.016 -1.905)
 				)
 				(stroke
 					(width 0)
@@ -550,7 +550,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.556 -8.255) (xy 3.81 -8.001) (xy 3.81 -7.239) (xy 4.064 -6.985)
+					(xy -1.524 4.445) (xy -1.27 4.699) (xy -1.27 5.461) (xy -1.016 5.715)
 				)
 				(stroke
 					(width 0)
@@ -562,7 +562,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.556 -3.175) (xy 3.81 -2.921) (xy 3.81 -2.159) (xy 4.064 -1.905)
+					(xy -1.524 9.525) (xy -1.27 9.779) (xy -1.27 10.541) (xy -1.016 10.795)
 				)
 				(stroke
 					(width 0)
@@ -574,7 +574,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.81 -20.32) (xy 2.54 -20.955) (xy 2.54 -19.685) (xy 3.81 -20.32)
+					(xy -1.27 -7.62) (xy -2.54 -8.255) (xy -2.54 -6.985) (xy -1.27 -7.62)
 				)
 				(stroke
 					(width 0)
@@ -586,7 +586,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.81 -15.24) (xy 2.54 -15.875) (xy 2.54 -14.605) (xy 3.81 -15.24)
+					(xy -1.27 -2.54) (xy -2.54 -3.175) (xy -2.54 -1.905) (xy -1.27 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -598,7 +598,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.81 -7.62) (xy 2.54 -8.255) (xy 2.54 -6.985) (xy 3.81 -7.62)
+					(xy -1.27 5.08) (xy -2.54 4.445) (xy -2.54 5.715) (xy -1.27 5.08)
 				)
 				(stroke
 					(width 0)
@@ -610,7 +610,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.81 -2.54) (xy 2.54 -3.175) (xy 2.54 -1.905) (xy 3.81 -2.54)
+					(xy -1.27 10.16) (xy -2.54 9.525) (xy -2.54 10.795) (xy -1.27 10.16)
 				)
 				(stroke
 					(width 0)
@@ -621,7 +621,7 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 -2.54 0)
+				(at -7.62 10.16 0)
 				(length 2.54)
 				(name "IO1"
 					(effects
@@ -639,7 +639,7 @@
 				)
 			)
 			(pin free line
-				(at -2.54 -5.08 0)
+				(at -7.62 7.62 0)
 				(length 2.54)
 				(name "NC"
 					(effects
@@ -657,7 +657,7 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 -7.62 0)
+				(at -7.62 5.08 0)
 				(length 2.54)
 				(name "IO2"
 					(effects
@@ -675,7 +675,7 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 -15.24 0)
+				(at -7.62 -2.54 0)
 				(length 2.54)
 				(name "IO3"
 					(effects
@@ -693,7 +693,7 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 -20.32 0)
+				(at -7.62 -7.62 0)
 				(length 2.54)
 				(name "IO4"
 					(effects
@@ -711,7 +711,7 @@
 				)
 			)
 			(pin free line
-				(at -2.54 -22.86 0)
+				(at -7.62 -10.16 0)
 				(length 2.54)
 				(name "NC"
 					(effects
@@ -729,7 +729,7 @@
 				)
 			)
 			(pin free line
-				(at -2.54 -17.78 0)
+				(at -7.62 -5.08 0)
 				(length 2.54)
 				(name "NC"
 					(effects
@@ -747,7 +747,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 -27.94 90)
+				(at 2.54 -15.24 90)
 				(length 2.54) hide
 				(name "G"
 					(effects
@@ -765,7 +765,7 @@
 				)
 			)
 			(pin free line
-				(at -2.54 -10.16 0)
+				(at -7.62 2.54 0)
 				(length 2.54)
 				(name "NC"
 					(effects
@@ -790,7 +790,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 1.27 0)
+			(at -5.08 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -799,7 +799,7 @@
 			)
 		)
 		(property "Value" "TPD4E02B04DQA"
-			(at 0 -26.67 0)
+			(at -5.08 -13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -808,7 +808,7 @@
 			)
 		)
 		(property "Footprint" "CHIPSAlliance_Package_SON:USON-10_2.5x1.0mm_P0.5mm"
-			(at 0 -29.21 0)
+			(at -5.08 -16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -818,7 +818,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tpd4e02b04.pdf"
-			(at 0 -31.75 0)
+			(at -5.08 -19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -828,7 +828,7 @@
 			)
 		)
 		(property "Description" "4-Channel ESD Protection Diode for USB Type-C and HDMI 2.0, USON-10"
-			(at 0 0 0)
+			(at -5.08 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -837,7 +837,7 @@
 			)
 		)
 		(property "ki_keywords" "ESD protection USB HDMI"
-			(at 0 0 0)
+			(at -5.08 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -846,7 +846,7 @@
 			)
 		)
 		(property "ki_fp_filters" "USON*2.5x1.0mm*P0.5mm*"
-			(at 0 0 0)
+			(at -5.08 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -856,7 +856,7 @@
 		)
 		(symbol "TPD4E02B04DQA_0_0"
 			(pin passive line
-				(at 7.62 -27.94 90)
+				(at 2.54 -15.24 90)
 				(length 2.54)
 				(name "G"
 					(effects
@@ -877,7 +877,7 @@
 		(symbol "TPD4E02B04DQA_0_1"
 			(polyline
 				(pts
-					(xy 0 -20.32) (xy 7.62 -20.32)
+					(xy -5.08 -7.62) (xy 2.54 -7.62)
 				)
 				(stroke
 					(width 0)
@@ -889,7 +889,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -15.24) (xy 7.62 -15.24)
+					(xy -5.08 -2.54) (xy 2.54 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -901,7 +901,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -7.62) (xy 7.62 -7.62)
+					(xy -5.08 5.08) (xy 2.54 5.08)
 				)
 				(stroke
 					(width 0)
@@ -913,7 +913,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -2.54) (xy 7.62 -2.54)
+					(xy -5.08 10.16) (xy 2.54 10.16)
 				)
 				(stroke
 					(width 0)
@@ -925,7 +925,7 @@
 			)
 			(polyline
 				(pts
-					(xy 7.62 -2.54) (xy 7.62 -25.4)
+					(xy 2.54 10.16) (xy 2.54 -12.7)
 				)
 				(stroke
 					(width 0.1524)
@@ -937,7 +937,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.81 -20.32) (xy 5.08 -20.955) (xy 5.08 -19.685) (xy 3.81 -20.32)
+					(xy -1.27 -7.62) (xy 0 -8.255) (xy 0 -6.985) (xy -1.27 -7.62)
 				)
 				(stroke
 					(width 0)
@@ -949,7 +949,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.81 -15.24) (xy 5.08 -15.875) (xy 5.08 -14.605) (xy 3.81 -15.24)
+					(xy -1.27 -2.54) (xy 0 -3.175) (xy 0 -1.905) (xy -1.27 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -961,7 +961,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.81 -7.62) (xy 5.08 -8.255) (xy 5.08 -6.985) (xy 3.81 -7.62)
+					(xy -1.27 5.08) (xy 0 4.445) (xy 0 5.715) (xy -1.27 5.08)
 				)
 				(stroke
 					(width 0)
@@ -973,7 +973,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.81 -2.54) (xy 5.08 -3.175) (xy 5.08 -1.905) (xy 3.81 -2.54)
+					(xy -1.27 10.16) (xy 0 9.525) (xy 0 10.795) (xy -1.27 10.16)
 				)
 				(stroke
 					(width 0)
@@ -984,8 +984,8 @@
 				)
 			)
 			(rectangle
-				(start 0 0)
-				(end 10.16 -25.4)
+				(start -5.08 12.7)
+				(end 5.08 -12.7)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -995,7 +995,7 @@
 				)
 			)
 			(circle
-				(center 7.62 -20.32)
+				(center 2.54 -7.62)
 				(radius 0.254)
 				(stroke
 					(width 0)
@@ -1006,7 +1006,7 @@
 				)
 			)
 			(circle
-				(center 7.62 -15.24)
+				(center 2.54 -2.54)
 				(radius 0.254)
 				(stroke
 					(width 0)
@@ -1017,7 +1017,7 @@
 				)
 			)
 			(circle
-				(center 7.62 -7.62)
+				(center 2.54 5.08)
 				(radius 0.254)
 				(stroke
 					(width 0)
@@ -1031,7 +1031,7 @@
 		(symbol "TPD4E02B04DQA_1_1"
 			(polyline
 				(pts
-					(xy 3.556 -20.955) (xy 3.81 -20.701) (xy 3.81 -19.939) (xy 4.064 -19.685)
+					(xy -1.524 -8.255) (xy -1.27 -8.001) (xy -1.27 -7.239) (xy -1.016 -6.985)
 				)
 				(stroke
 					(width 0)
@@ -1043,7 +1043,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.556 -15.875) (xy 3.81 -15.621) (xy 3.81 -14.859) (xy 4.064 -14.605)
+					(xy -1.524 -3.175) (xy -1.27 -2.921) (xy -1.27 -2.159) (xy -1.016 -1.905)
 				)
 				(stroke
 					(width 0)
@@ -1055,7 +1055,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.556 -8.255) (xy 3.81 -8.001) (xy 3.81 -7.239) (xy 4.064 -6.985)
+					(xy -1.524 4.445) (xy -1.27 4.699) (xy -1.27 5.461) (xy -1.016 5.715)
 				)
 				(stroke
 					(width 0)
@@ -1067,7 +1067,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.556 -3.175) (xy 3.81 -2.921) (xy 3.81 -2.159) (xy 4.064 -1.905)
+					(xy -1.524 9.525) (xy -1.27 9.779) (xy -1.27 10.541) (xy -1.016 10.795)
 				)
 				(stroke
 					(width 0)
@@ -1079,7 +1079,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.81 -20.32) (xy 2.54 -20.955) (xy 2.54 -19.685) (xy 3.81 -20.32)
+					(xy -1.27 -7.62) (xy -2.54 -8.255) (xy -2.54 -6.985) (xy -1.27 -7.62)
 				)
 				(stroke
 					(width 0)
@@ -1091,7 +1091,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.81 -15.24) (xy 2.54 -15.875) (xy 2.54 -14.605) (xy 3.81 -15.24)
+					(xy -1.27 -2.54) (xy -2.54 -3.175) (xy -2.54 -1.905) (xy -1.27 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -1103,7 +1103,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.81 -7.62) (xy 2.54 -8.255) (xy 2.54 -6.985) (xy 3.81 -7.62)
+					(xy -1.27 5.08) (xy -2.54 4.445) (xy -2.54 5.715) (xy -1.27 5.08)
 				)
 				(stroke
 					(width 0)
@@ -1115,7 +1115,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.81 -2.54) (xy 2.54 -3.175) (xy 2.54 -1.905) (xy 3.81 -2.54)
+					(xy -1.27 10.16) (xy -2.54 9.525) (xy -2.54 10.795) (xy -1.27 10.16)
 				)
 				(stroke
 					(width 0)
@@ -1126,7 +1126,7 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 -2.54 0)
+				(at -7.62 10.16 0)
 				(length 2.54)
 				(name "IO1"
 					(effects
@@ -1144,7 +1144,7 @@
 				)
 			)
 			(pin free line
-				(at -2.54 -5.08 0)
+				(at -7.62 7.62 0)
 				(length 2.54)
 				(name "NC"
 					(effects
@@ -1162,7 +1162,7 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 -7.62 0)
+				(at -7.62 5.08 0)
 				(length 2.54)
 				(name "IO2"
 					(effects
@@ -1180,7 +1180,7 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 -15.24 0)
+				(at -7.62 -2.54 0)
 				(length 2.54)
 				(name "IO3"
 					(effects
@@ -1198,7 +1198,7 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 -20.32 0)
+				(at -7.62 -7.62 0)
 				(length 2.54)
 				(name "IO4"
 					(effects
@@ -1216,7 +1216,7 @@
 				)
 			)
 			(pin free line
-				(at -2.54 -22.86 0)
+				(at -7.62 -10.16 0)
 				(length 2.54)
 				(name "NC"
 					(effects
@@ -1234,7 +1234,7 @@
 				)
 			)
 			(pin free line
-				(at -2.54 -17.78 0)
+				(at -7.62 -5.08 0)
 				(length 2.54)
 				(name "NC"
 					(effects
@@ -1252,7 +1252,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 -27.94 90)
+				(at 2.54 -15.24 90)
 				(length 2.54) hide
 				(name "G"
 					(effects
@@ -1270,7 +1270,7 @@
 				)
 			)
 			(pin free line
-				(at -2.54 -10.16 0)
+				(at -7.62 2.54 0)
 				(length 2.54)
 				(name "NC"
 					(effects

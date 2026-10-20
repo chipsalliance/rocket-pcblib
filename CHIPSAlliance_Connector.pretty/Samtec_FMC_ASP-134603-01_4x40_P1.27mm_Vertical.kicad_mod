@@ -27,7 +27,7 @@
 			)
 		)
 	)
-	(property "Footprint" "Samtec_FMC_ASP-134603-01_4x40_P1.27mm_Vertical"
+	(property "Footprint" ""
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")

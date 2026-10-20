@@ -1,4 +1,4 @@
-(footprint "Micron_TPBGA24"
+(footprint "Micron_T-PBGA-24_6x8mm_Layout5x5_P1mm_Ball0.4mm_Pad0.4mm_NSMD"
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "Micron_TPBGA24"
+	(property "Value" "Micron_T-PBGA-24_6x8mm_Layout5x5_P1mm_Ball0.4mm_Pad0.4mm_NSMD"
 		(at 0 5 0)
 		(layer "F.Fab")
 		(uuid "93f00286-acc5-4b90-912b-f57daf0b5b77")
@@ -374,7 +374,7 @@
 		(uuid "4e450b27-fd7e-41c3-aef8-bffdafc973a3")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/library/CHIPSAlliance_Package_BGA.3dshapes/Micron_T-PBGA-24_6x8mm_Layout5x5_P1.0mm.step"
+	(model "${KIPRJMOD}/library/CHIPSAlliance_Package_BGA.3dshapes/Micron_T-PBGA-24_6x8mm_Layout5x5_P1mm_Ball0.4mm_Pad0.4mm_NSMD.step"
 		(offset
 			(xyz 0 0 0)
 		)

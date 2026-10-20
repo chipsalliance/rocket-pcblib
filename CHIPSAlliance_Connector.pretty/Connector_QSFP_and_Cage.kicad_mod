@@ -29,7 +29,7 @@
 			)
 		)
 	)
-	(property "Footprint" "Connector_QSFP_and_Cage"
+	(property "Footprint" ""
 		(at 14.3 0 0)
 		(unlocked yes)
 		(layer "F.Fab")

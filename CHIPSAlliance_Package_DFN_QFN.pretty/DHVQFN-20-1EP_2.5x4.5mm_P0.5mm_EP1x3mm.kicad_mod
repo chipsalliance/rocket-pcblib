@@ -27,7 +27,7 @@
 			)
 		)
 	)
-	(property "Footprint" "DHVQFN-20-1EP_2.5x4.5mm_P0.5mm_EP1x3mm"
+	(property "Footprint" ""
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")

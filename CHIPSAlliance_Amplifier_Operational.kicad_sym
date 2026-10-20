@@ -367,7 +367,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 7.62 2.54 0)
+			(at 5.08 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -375,7 +375,7 @@
 			)
 		)
 		(property "Value" "TLV6001IDBVR"
-			(at 11.43 -2.54 0)
+			(at 8.89 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -383,7 +383,7 @@
 			)
 		)
 		(property "Footprint" "CHIPSAlliance_Package_TO_SOT_SMD:SOT-23-5"
-			(at 5.08 0 0)
+			(at 2.54 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -392,7 +392,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv6001.pdf"
-			(at 0 0 0)
+			(at -2.54 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -401,7 +401,7 @@
 			)
 		)
 		(property "Description" "Low-power, Rail-to-rail, 1MHz Operational Amplifier, SOT-23-5"
-			(at 0 0 0)
+			(at -2.54 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -410,7 +410,7 @@
 			)
 		)
 		(property "ki_keywords" "op amp operational amplifier"
-			(at 0 0 0)
+			(at -2.54 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -419,7 +419,7 @@
 			)
 		)
 		(property "ki_fp_filters" "SOT*353*SC*70*"
-			(at 0 0 0)
+			(at -2.54 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -430,7 +430,7 @@
 		(symbol "TLV6001DBV_0_1"
 			(polyline
 				(pts
-					(xy -2.54 5.08) (xy -2.54 -5.08) (xy 7.62 0) (xy -2.54 5.08)
+					(xy -5.08 5.08) (xy -5.08 -5.08) (xy 5.08 0) (xy -5.08 5.08)
 				)
 				(stroke
 					(width 0.254)
@@ -443,7 +443,7 @@
 		)
 		(symbol "TLV6001DBV_1_1"
 			(pin input line
-				(at -5.08 2.54 0)
+				(at -7.62 2.54 0)
 				(length 2.54)
 				(name "+"
 					(effects
@@ -461,7 +461,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -2.54 0)
+				(at -7.62 -2.54 0)
 				(length 2.54)
 				(name "-"
 					(effects
@@ -479,7 +479,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 7.62 270)
+				(at -2.54 7.62 270)
 				(length 3.81)
 				(name "V+"
 					(effects
@@ -497,7 +497,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -7.62 90)
+				(at -2.54 -7.62 90)
 				(length 3.81)
 				(name "V-"
 					(effects
@@ -515,7 +515,7 @@
 				)
 			)
 			(pin output line
-				(at 10.16 0 180)
+				(at 7.62 0 180)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -543,7 +543,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 7.62 2.54 0)
+			(at 5.08 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -551,7 +551,7 @@
 			)
 		)
 		(property "Value" "TLV6001IDCKR"
-			(at 11.43 -2.54 0)
+			(at 8.89 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -559,7 +559,7 @@
 			)
 		)
 		(property "Footprint" "CHIPSAlliance_Package_TO_SOT_SMD:SOT-353_SC-70-5"
-			(at 5.08 0 0)
+			(at 2.54 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -568,7 +568,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv6001.pdf"
-			(at 0 0 0)
+			(at -2.54 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -577,7 +577,7 @@
 			)
 		)
 		(property "Description" "Low-power, Rail-to-rail, 1MHz Operational Amplifier, SOT-353"
-			(at 0 0 0)
+			(at -2.54 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -586,7 +586,7 @@
 			)
 		)
 		(property "ki_keywords" "op amp operational amplifier"
-			(at 0 0 0)
+			(at -2.54 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -595,7 +595,7 @@
 			)
 		)
 		(property "ki_fp_filters" "SOT*353*SC*70*"
-			(at 0 0 0)
+			(at -2.54 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -606,7 +606,7 @@
 		(symbol "TLV6001DCK_0_1"
 			(polyline
 				(pts
-					(xy -2.54 5.08) (xy -2.54 -5.08) (xy 7.62 0) (xy -2.54 5.08)
+					(xy -5.08 5.08) (xy -5.08 -5.08) (xy 5.08 0) (xy -5.08 5.08)
 				)
 				(stroke
 					(width 0.254)
@@ -619,7 +619,7 @@
 		)
 		(symbol "TLV6001DCK_1_1"
 			(pin input line
-				(at -5.08 2.54 0)
+				(at -7.62 2.54 0)
 				(length 2.54)
 				(name "+"
 					(effects
@@ -637,7 +637,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -2.54 0)
+				(at -7.62 -2.54 0)
 				(length 2.54)
 				(name "-"
 					(effects
@@ -655,7 +655,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 7.62 270)
+				(at -2.54 7.62 270)
 				(length 3.81)
 				(name "V+"
 					(effects
@@ -673,7 +673,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -7.62 90)
+				(at -2.54 -7.62 90)
 				(length 3.81)
 				(name "V-"
 					(effects
@@ -691,7 +691,7 @@
 				)
 			)
 			(pin output line
-				(at 10.16 0 180)
+				(at 7.62 0 180)
 				(length 2.54)
 				(name "~"
 					(effects
