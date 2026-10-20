@@ -1,0 +1,157 @@
+(footprint "Resonator_SMD_Murata_CSTNE-3Pin_3.2x1.3mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Murata CSTNE 3-pin ceramic resonator, 3.2x1.3mm body, 1.2mm pitch, manufacturer land pattern, https://www.murata.com/products/productdata/8801162100766/SPEC-CSTNE12M0GH5C000R0.pdf")
+	(tags "resonator ceramic Murata CSTNE")
+	(property "Reference" "REF**"
+		(at 0 -1.95 0)
+		(layer "F.SilkS")
+		(uuid "341411c2-ad58-47ab-93a0-3f010eea9b5a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Resonator_SMD_Murata_CSTNE-3Pin_3.2x1.3mm"
+		(at 0 1.95 0)
+		(layer "F.Fab")
+		(uuid "41a7b533-817b-4d28-bc12-1b7838eaafea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "183cb512-25d6-4f82-af78-09e3339c9b4b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e3c85bc9-f39c-4852-a44c-484a36ced50b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.71 -0.76)
+		(end -1.71 0.76)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "203c5aeb-6971-4f0d-b04b-17f0ea8382bf")
+	)
+	(fp_line
+		(start -1.71 -0.76)
+		(end -1.65 -0.76)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "72b4c244-5ab3-4cb0-8afe-f1c94e8f5dc1")
+	)
+	(fp_line
+		(start -1.71 0.76)
+		(end -1.65 0.76)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e45a27fe-0978-4ddb-8c04-aa49899aed58")
+	)
+	(fp_line
+		(start 1.71 -0.76)
+		(end 1.71 0.76)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c5e180ef-95ee-40d7-9d91-0da64e5e6c7b")
+	)
+	(fp_rect
+		(start -1.85 -1.2)
+		(end 1.85 1.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "bdefece3-3a8f-490d-9177-85fe3f1bda0b")
+	)
+	(fp_rect
+		(start -1.6 -0.65)
+		(end 1.6 0.65)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "dea378b8-cdbd-436e-a5d5-e49898b9ec4e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "78f74a58-da13-4c11-8a1e-a99dbc30cb7a")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.2 0)
+		(size 0.4 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a899e849-4cbf-429e-9ed1-cf09a55f5706")
+	)
+	(pad "2" smd rect
+		(at 0 0)
+		(size 0.4 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7f6005d2-01d3-4c1c-ac6c-90deab768a3e")
+	)
+	(pad "3" smd rect
+		(at 1.2 0)
+		(size 0.4 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "bd8feef2-9766-4cd3-ad07-3627c5f60e72")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/library/CHIPSAlliance_Oscillator.3dshapes/Resonator_SMD_Murata_CSTNE-3Pin_3.2x1.3mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
