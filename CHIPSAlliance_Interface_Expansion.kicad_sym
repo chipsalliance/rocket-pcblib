@@ -85,8 +85,8 @@
 		)
 		(symbol "TCA9555RTW_1_1"
 			(rectangle
-				(start 22.86 -7.62)
-				(end -22.86 7.62)
+				(start 25.4 -7.62)
+				(end -25.4 7.62)
 				(stroke
 					(width 0.254)
 					(type solid)
@@ -528,8 +528,8 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 -10.16 90)
-				(length 2.54)
+				(at -22.86 -12.7 90)
+				(length 5.08)
 				(name "GND"
 					(effects
 						(font
