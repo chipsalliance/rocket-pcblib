@@ -1,4 +1,4 @@
-(footprint "Conn_mikroBUS_Host_2x8_P2.54mm"
+(footprint "Conn_mikroBUS_Host_2x08_P2.54mm"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "REF**"
+	(property "Value" "Conn_mikroBUS_Host_2x08_P2.54mm"
 		(at 11.9 20.3 0)
 		(layer "F.SilkS")
 		(hide yes)
@@ -28,7 +28,7 @@
 			)
 		)
 	)
-	(property "Footprint" "Conn_mikroBUS_Host_2x8_P2.54mm"
+	(property "Footprint" ""
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -2758,7 +2758,7 @@
 			"e885203b-7aa9-42aa-96e3-2eb28e12a84e" "e90f7290-304e-4150-ad49-0e242fea659f"
 		)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x08_P2.54mm_Vertical.step"
+	(model "${KICAD10_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x08_P2.54mm_Vertical.step"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -2769,7 +2769,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x08_P2.54mm_Vertical.step"
+	(model "${KICAD10_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x08_P2.54mm_Vertical.step"
 		(offset
 			(xyz 22.86 0 0)
 		)

@@ -499,7 +499,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CHIPSAlliance_Package_BGA:Micron_TPBGA24"
+		(property "Footprint" "CHIPSAlliance_Package_BGA:Micron_T-PBGA-24_6x8mm_Layout5x5_P1mm_Ball0.4mm_Pad0.4mm_NSMD"
 			(at 20.32 2.54 0)
 			(effects
 				(font
@@ -535,7 +535,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "Micron*TPBGA24*"
+		(property "ki_fp_filters" "Micron*TPBGA24* Micron?T?PBGA?24?6x8mm?Layout5x5?P1mm?Ball0.4mm?Pad0.4mm?NSMD"
 			(at 0 0 0)
 			(effects
 				(font

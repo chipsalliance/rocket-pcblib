@@ -1,4 +1,4 @@
-(footprint "ACA-SPI-004" (version 20221018) (generator pcbnew)
+(footprint "SOIC-Socket_LOTES_ACA-SPI-004_2x04_P1.27mm" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (descr "https://www.marutsu.co.jp/contents/shop/marutsu/ds/asp-134602-01.pdf")
   (tags "SPI Socket")
@@ -7,7 +7,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 25547845-67ab-4502-9e7e-54e4d1a0d784)
   )
-  (fp_text value "ACA-SPI-004" (at 0 5) (layer "F.Fab")
+  (fp_text value "SOIC-Socket_LOTES_ACA-SPI-004_2x04_P1.27mm" (at 0 5) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp b6f638f9-6c9d-4f5a-b39a-6da670a631fd)
   )
@@ -141,7 +141,7 @@
   (pad "6" smd roundrect (at -0.635 4 270) (size 1.5 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 7611710f-dee9-4000-8b9d-f42f46a0b873))
   (pad "7" smd roundrect (at 0.635 4 270) (size 1.5 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp a34ff781-f655-4d5e-8e09-0b0d896cdb87))
   (pad "8" smd roundrect (at 1.905 4 270) (size 1.5 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp dd6907d0-699a-4b29-8b47-00d90d6fdf03))
-  (model "${KIPRJMOD}/library/CHIPSAlliance_Connector.3dshapes/ACA-SPI-004-K01.step"
+  (model "${KIPRJMOD}/library/CHIPSAlliance_Connector.3dshapes/SOIC-Socket_LOTES_ACA-SPI-004_2x04_P1.27mm.step"
     (offset (xyz 4.5 -6.05 -3.1))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

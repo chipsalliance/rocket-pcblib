@@ -60,7 +60,7 @@
 		)
 		(symbol "TPS386000_0_0"
 			(pin input line
-				(at -12.7 -19.05 0)
+				(at -12.7 -17.78 0)
 				(length 2.54)
 				(name "~{MR}"
 					(effects
@@ -78,7 +78,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 19.05 0)
+				(at -12.7 20.32 0)
 				(length 2.54)
 				(name "SENSE1"
 					(effects
@@ -132,7 +132,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 -19.05 180)
+				(at 12.7 -17.78 180)
 				(length 2.54)
 				(name "VREF"
 					(effects
@@ -168,7 +168,7 @@
 				)
 			)
 			(pin open_collector line
-				(at 12.7 16.51 180)
+				(at 12.7 17.78 180)
 				(length 2.54)
 				(name "~{RESET1}"
 					(effects
@@ -186,7 +186,7 @@
 				)
 			)
 			(pin open_collector line
-				(at 12.7 8.89 180)
+				(at 12.7 10.16 180)
 				(length 2.54)
 				(name "~{RESET2}"
 					(effects
@@ -204,7 +204,7 @@
 				)
 			)
 			(pin open_collector line
-				(at 12.7 1.27 180)
+				(at 12.7 2.54 180)
 				(length 2.54)
 				(name "~{RESET3}"
 					(effects
@@ -222,7 +222,7 @@
 				)
 			)
 			(pin open_collector line
-				(at 12.7 -8.89 180)
+				(at 12.7 -7.62 180)
 				(length 2.54)
 				(name "~{RESET4}"
 					(effects
@@ -240,7 +240,7 @@
 				)
 			)
 			(pin open_collector line
-				(at 12.7 -13.97 180)
+				(at 12.7 -12.7 180)
 				(length 2.54)
 				(name "~{WDO}"
 					(effects
@@ -258,7 +258,7 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 -8.89 0)
+				(at -12.7 -7.62 0)
 				(length 2.54)
 				(name "CT4"
 					(effects
@@ -276,7 +276,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -13.97 0)
+				(at -12.7 -12.7 0)
 				(length 2.54)
 				(name "WDI"
 					(effects
@@ -312,7 +312,7 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 1.27 0)
+				(at -12.7 2.54 0)
 				(length 2.54)
 				(name "CT3"
 					(effects
@@ -330,7 +330,7 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 8.89 0)
+				(at -12.7 10.16 0)
 				(length 2.54)
 				(name "CT2"
 					(effects
@@ -348,7 +348,7 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 16.51 0)
+				(at -12.7 17.78 0)
 				(length 2.54)
 				(name "CT1"
 					(effects
@@ -366,7 +366,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -6.35 0)
+				(at -12.7 -5.08 0)
 				(length 2.54)
 				(name "SENSE4H"
 					(effects
@@ -384,7 +384,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -3.81 0)
+				(at -12.7 -2.54 0)
 				(length 2.54)
 				(name "SENSE4L"
 					(effects
@@ -402,7 +402,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 3.81 0)
+				(at -12.7 5.08 0)
 				(length 2.54)
 				(name "SENSE3"
 					(effects
@@ -420,7 +420,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 11.43 0)
+				(at -12.7 12.7 0)
 				(length 2.54)
 				(name "SENSE2"
 					(effects

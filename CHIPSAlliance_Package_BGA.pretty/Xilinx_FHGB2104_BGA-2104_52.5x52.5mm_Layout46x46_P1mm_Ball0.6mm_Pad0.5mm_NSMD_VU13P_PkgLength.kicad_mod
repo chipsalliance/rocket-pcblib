@@ -1,4 +1,4 @@
-(footprint "Xilinx_FHGB2104_VU13P_PkgLength"
+(footprint "Xilinx_FHGB2104_BGA-2104_52.5x52.5mm_Layout46x46_P1mm_Ball0.6mm_Pad0.5mm_NSMD_VU13P_PkgLength"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "Xilinx_FHGB2104_FHGC2104"
+	(property "Value" "Xilinx_FHGB2104_BGA-2104_52.5x52.5mm_Layout46x46_P1mm_Ball0.6mm_Pad0.5mm_NSMD_VU13P_PkgLength"
 		(at 0 27.25 0)
 		(layer "F.Fab")
 		(uuid "54f7fa10-55d9-4dc9-bea9-1e339b4bc7a3")
@@ -27,7 +27,7 @@
 			)
 		)
 	)
-	(property "Footprint" "Xilinx_FHGB2104_VU13P_PkgLength"
+	(property "Footprint" ""
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -18746,7 +18746,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "5e8822b8-b330-462c-8384-4fc930e0654e")
 	)
-	(model "${KIPRJMOD}/library/CHIPSAlliance_Package_BGA.3dshapes/BGA-2104_52.5x52.5mm_Layout55x55_P1.0mm_Ball0.60mm_Pad0.53mm_NSMD.step"
+	(model "${KIPRJMOD}/library/CHIPSAlliance_Package_BGA.3dshapes/Xilinx_FHGB2104-FHGC2104_BGA-2104_52.5x52.5mm_Layout46x46_P1mm_Ball0.6mm_Pad0.5mm_NSMD.step"
 		(offset
 			(xyz 0 0 0)
 		)

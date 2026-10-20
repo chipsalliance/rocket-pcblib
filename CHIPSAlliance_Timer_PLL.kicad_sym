@@ -2000,7 +2000,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 -3.81 180)
+				(at 12.7 -2.54 180)
 				(length 2.54)
 				(name "~{CLK1}"
 					(effects
@@ -2090,7 +2090,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 8.89 180)
+				(at 12.7 10.16 180)
 				(length 2.54)
 				(name "CLK0"
 					(effects
@@ -2162,7 +2162,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 8.89 0)
+				(at -12.7 10.16 0)
 				(length 2.54)
 				(name "X1/CLK"
 					(effects

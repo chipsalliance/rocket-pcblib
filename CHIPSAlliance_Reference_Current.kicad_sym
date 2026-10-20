@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 1.27 0)
+			(at -7.62 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16,7 +16,7 @@
 			)
 		)
 		(property "Value" "DS4424"
-			(at 0 -31.75 0)
+			(at -7.62 -16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25,7 +25,7 @@
 			)
 		)
 		(property "Footprint" "CHIPSAlliance_Package_DFN_QFN:DFN-14-1EP_3x3mm_P0.4mm_EP1.78x2.35mm"
-			(at 0 -34.29 0)
+			(at -7.62 -19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35,7 +35,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/DS4422-DS4424.pdf"
-			(at 0 -36.83 0)
+			(at -7.62 -21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45,7 +45,7 @@
 			)
 		)
 		(property "Description" "Two-/Four-Channel, I2C, 7-Bit Sink/Source Current DAC"
-			(at 0 0 0)
+			(at -7.62 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54,7 +54,7 @@
 			)
 		)
 		(property "ki_keywords" "Current DAC"
-			(at 0 0 0)
+			(at -7.62 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63,7 +63,7 @@
 			)
 		)
 		(property "ki_fp_filters" "*DFN-14-1EP_3x3mm_P0.4mm*"
-			(at 0 0 0)
+			(at -7.62 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,8 +73,8 @@
 		)
 		(symbol "DS4424_0_1"
 			(rectangle
-				(start 0 0)
-				(end 15.24 -30.48)
+				(start -7.62 15.24)
+				(end 7.62 -15.24)
 				(stroke
 					(width 0.001)
 					(type default)
@@ -85,7 +85,7 @@
 			)
 			(polyline
 				(pts
-					(xy 6.35 -17.78) (xy 7.112 -17.78)
+					(xy -1.27 -2.54) (xy -0.508 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -97,7 +97,7 @@
 			)
 			(polyline
 				(pts
-					(xy 6.477 -12.954) (xy 7.239 -12.954)
+					(xy -1.143 2.286) (xy -0.381 2.286)
 				)
 				(stroke
 					(width 0)
@@ -109,7 +109,7 @@
 			)
 			(polyline
 				(pts
-					(xy 6.858 -12.573) (xy 6.858 -13.335)
+					(xy -0.762 2.667) (xy -0.762 1.905)
 				)
 				(stroke
 					(width 0)
@@ -121,7 +121,7 @@
 			)
 			(polyline
 				(pts
-					(xy 7.493 -11.557) (xy 7.493 -13.462)
+					(xy -0.127 3.683) (xy -0.127 1.778)
 				)
 				(stroke
 					(width 0)
@@ -133,7 +133,7 @@
 			)
 			(polyline
 				(pts
-					(xy 7.493 -13.97) (xy 7.493 -16.764)
+					(xy -0.127 1.27) (xy -0.127 -1.524)
 				)
 				(stroke
 					(width 0.254)
@@ -144,7 +144,7 @@
 				)
 			)
 			(circle
-				(center 7.493 -14.732)
+				(center -0.127 0.508)
 				(radius 1.27)
 				(stroke
 					(width 0)
@@ -155,7 +155,7 @@
 				)
 			)
 			(circle
-				(center 7.493 -16.002)
+				(center -0.127 -0.762)
 				(radius 1.27)
 				(stroke
 					(width 0)
@@ -167,7 +167,7 @@
 			)
 			(polyline
 				(pts
-					(xy 7.493 -16.764) (xy 7.239 -16.256) (xy 7.747 -16.256) (xy 7.493 -16.764)
+					(xy -0.127 -1.524) (xy -0.381 -1.016) (xy 0.127 -1.016) (xy -0.127 -1.524)
 				)
 				(stroke
 					(width 0.254)
@@ -179,7 +179,7 @@
 			)
 			(polyline
 				(pts
-					(xy 7.493 -17.272) (xy 7.493 -19.177)
+					(xy -0.127 -2.032) (xy -0.127 -3.937)
 				)
 				(stroke
 					(width 0)
@@ -191,7 +191,7 @@
 			)
 			(polyline
 				(pts
-					(xy 8.763 -15.367) (xy 9.652 -15.113) (xy 9.652 -15.621) (xy 8.763 -15.367)
+					(xy 1.143 -0.127) (xy 2.032 0.127) (xy 2.032 -0.381) (xy 1.143 -0.127)
 				)
 				(stroke
 					(width 0)
@@ -203,7 +203,7 @@
 			)
 			(polyline
 				(pts
-					(xy 10.033 -15.367) (xy 8.763 -15.367)
+					(xy 2.413 -0.127) (xy 1.143 -0.127)
 				)
 				(stroke
 					(width 0)
@@ -216,7 +216,7 @@
 		)
 		(symbol "DS4424_1_1"
 			(pin input line
-				(at -2.54 -5.08 0)
+				(at -10.16 10.16 0)
 				(length 2.54)
 				(name "SDA"
 					(effects
@@ -234,7 +234,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 -7.62 0)
+				(at -10.16 7.62 0)
 				(length 2.54)
 				(name "SCL"
 					(effects
@@ -252,7 +252,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 -10.16 0)
+				(at -10.16 5.08 0)
 				(length 2.54)
 				(name "A1"
 					(effects
@@ -270,7 +270,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 -12.7 0)
+				(at -10.16 2.54 0)
 				(length 2.54)
 				(name "A0"
 					(effects
@@ -288,7 +288,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 -17.78 0)
+				(at -10.16 -2.54 0)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -306,7 +306,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 -25.4 0)
+				(at -10.16 -10.16 0)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -325,7 +325,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 -25.4 0)
+				(at -10.16 -10.16 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -343,7 +343,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -5.08 180)
+				(at 10.16 10.16 180)
 				(length 2.54)
 				(name "OUT0"
 					(effects
@@ -361,7 +361,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -7.62 180)
+				(at 10.16 7.62 180)
 				(length 2.54)
 				(name "OUT1"
 					(effects
@@ -379,7 +379,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -10.16 180)
+				(at 10.16 5.08 180)
 				(length 2.54)
 				(name "OUT2"
 					(effects
@@ -397,7 +397,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -12.7 180)
+				(at 10.16 2.54 180)
 				(length 2.54)
 				(name "OUT3"
 					(effects
@@ -415,7 +415,7 @@
 				)
 			)
 			(pin input line
-				(at 17.78 -17.78 180)
+				(at 10.16 -2.54 180)
 				(length 2.54)
 				(name "FS0"
 					(effects
@@ -433,7 +433,7 @@
 				)
 			)
 			(pin input line
-				(at 17.78 -20.32 180)
+				(at 10.16 -5.08 180)
 				(length 2.54)
 				(name "FS1"
 					(effects
@@ -451,7 +451,7 @@
 				)
 			)
 			(pin input line
-				(at 17.78 -22.86 180)
+				(at 10.16 -7.62 180)
 				(length 2.54)
 				(name "FS2"
 					(effects
@@ -469,7 +469,7 @@
 				)
 			)
 			(pin input line
-				(at 17.78 -25.4 180)
+				(at 10.16 -10.16 180)
 				(length 2.54)
 				(name "FS3"
 					(effects

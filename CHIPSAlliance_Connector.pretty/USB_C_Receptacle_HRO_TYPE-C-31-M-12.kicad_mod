@@ -27,7 +27,7 @@
 			)
 		)
 	)
-	(property "Footprint" "USB_C_Receptacle_HRO_TYPE-C-31-M-12"
+	(property "Footprint" ""
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")

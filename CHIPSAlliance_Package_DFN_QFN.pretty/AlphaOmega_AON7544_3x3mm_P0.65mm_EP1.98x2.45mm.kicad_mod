@@ -1,4 +1,4 @@
-(footprint "AO_DFN3x3A_8L_EP1_P_DFN-10-1EP_3x3mm_P0.65mm_EP1.98x2.45mm"
+(footprint "AlphaOmega_AON7544_3x3mm_P0.65mm_EP1.98x2.45mm"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "AO_DFN3x3A_8L_EP1_P_DFN-10-1EP_3x3mm_P0.65mm_EP1.98x2.45mm"
+	(property "Value" "AlphaOmega_AON7544_3x3mm_P0.65mm_EP1.98x2.45mm"
 		(at 0 2.83 0)
 		(layer "F.Fab")
 		(uuid "2ab52573-6e42-4a88-b5e7-e68bed03a990")
@@ -330,7 +330,7 @@
 		(uuid "084f5e87-eae3-4dcc-9fd1-ca1f3ae366ca")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/library/CHIPSAlliance_Package_DFN_QFN.3dshapes/AO_DFN3x3A_8L_EP1_P_DFN-10-1EP_3x3mm_P0.65mm_EP1.98x2.45mm.step"
+	(model "${KIPRJMOD}/library/CHIPSAlliance_Package_DFN_QFN.3dshapes/AlphaOmega_AON7544_3x3mm_P0.65mm_EP1.98x2.45mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

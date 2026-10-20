@@ -1,4 +1,4 @@
-(footprint "HRS_DF40C_60DS_0.4V_51" (version 20221018) (generator pcbnew)
+(footprint "Hirose_DF40C-60DS-0.4V_2x30_P0.4mm_Vertical" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (descr "https://atta.szlcsc.com/upload/public/pdf/source/20200611/C597932_F50447A8BD413549CB06DCD4A9C7496A.pdf")
   (tags "BTB")
@@ -7,7 +7,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp c97c8188-3057-40c2-be51-9e6b59a1a174)
   )
-  (fp_text value "HRS_DF40C_60DS_0.4V_51" (at 0 3) (layer "F.Fab")
+  (fp_text value "Hirose_DF40C-60DS-0.4V_2x30_P0.4mm_Vertical" (at 0 3) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 7aaf8ac3-6041-4eee-bf40-0e495088336a)
   )
@@ -111,7 +111,7 @@
   (pad "57" smd rect (at 5.4 1.54) (size 0.2 1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c41e3806-7e39-4ede-a465-47144cddaac5))
   (pad "58" smd rect (at 5.4 -1.54 180) (size 0.2 1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f93139ef-9972-405c-b760-715af5d40596))
   (pad "59" smd rect (at 5.8 1.54) (size 0.2 1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 6481754b-aa39-4987-bb0f-bf40556f28ff))
-  (model "${KIPRJMOD}/library/CHIPSAlliance_Connector.3dshapes/HRS_DF40C_60DS_0.4V_51.step"
+  (model "${KIPRJMOD}/library/CHIPSAlliance_Connector.3dshapes/Hirose_DF40C-60DS-0.4V_2x30_P0.4mm_Vertical.step"
     (offset (xyz 0 -0 -0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

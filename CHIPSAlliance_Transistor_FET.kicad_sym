@@ -26,7 +26,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CHIPSAlliance_Package_DFN_QFN:AO_DFN3x3A_8L_EP1_P_DFN-10-1EP_3x3mm_P0.65mm_EP1.98x2.45mm"
+		(property "Footprint" "CHIPSAlliance_Package_DFN_QFN:AlphaOmega_AON7544_3x3mm_P0.65mm_EP1.98x2.45mm"
 			(at 5.08 2.54 0)
 			(effects
 				(font

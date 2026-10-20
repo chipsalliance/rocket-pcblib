@@ -1,4 +1,4 @@
-(footprint "USB_9P_P2.54mm_Horizontal"
+(footprint "PinHeader_2x05_P2.54mm_Horizontal_USB_NoPin2"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "USB_9P_P2.54mm_Horizontal"
+	(property "Value" "PinHeader_2x05_P2.54mm_Horizontal_USB_NoPin2"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -1050,7 +1050,7 @@
 		(remove_unused_layers no)
 		(uuid "e4af602f-470d-44a8-9bde-b668a1c28433")
 	)
-	(model "${KIPRJMOD}/library/CHIPSAlliance_Connector.3dshapes/PinHeader_2x05_P2.54mm_Horizontal_NoPin2.step"
+	(model "${KIPRJMOD}/library/CHIPSAlliance_Connector.3dshapes/PinHeader_2x05_P2.54mm_Horizontal_USB_NoPin2.step"
 		(offset
 			(xyz 0 5.08 0)
 		)
