@@ -8,7 +8,7 @@ X = +/-6.75 mm and Y = 2.50 mm. Their outside and inside spans are 13.90 and
 the outer edge of the copper. The recommended stencil thickness is 0.10 mm.
 The 14.0 x 3.8 mm body is 1.0 mm high. Courtyard clearance is at least
 0.25 mm from the body and pads. Pin 1 is at the right of the signal row,
-as shown in the manufacturer's PCB land drawing. No 3D model is supplied.
+as shown in the manufacturer's PCB land drawing.
 
 The connector accepts 0.30 +/-0.03 mm FPC. The standard cable drawing uses
 a 2.5 +/-0.3 mm stiffener with an exposed length of 1.5 +/-0.3 mm. The
@@ -20,3 +20,10 @@ orientation and folding clearance still require supplier confirmation.
 Manufacturer source: https://www.hirose.com/en/product/document?clcode=&documentid=en_FH34_CAT&documenttype=Catalog&lang=en&productname=&series=FH34SRJ
 
 Archived manufacturer PDF: https://www.esskabel.de/wp-content/uploads/2022/03/FH34.pdf
+
+The project-generated STEP model follows the same catalog dimensions.
+The closed envelope is 14.0 x 3.8 x 1.0 mm, with 24 contacts and two fittings.
+Its contact plane is Z=0. Offset and rotation are zero. Scale is one.
+The slot, actuator partition and internal contact shapes are simplified.
+Colors identify plastic and metal. They are not manufacturer color specifications.
+This dimensional model uses the repository Apache-2.0 license.

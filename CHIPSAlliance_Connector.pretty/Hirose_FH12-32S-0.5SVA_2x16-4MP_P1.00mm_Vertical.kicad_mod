@@ -504,4 +504,15 @@
 		(fill none)
 		(layer "F.Fab")
 	)
+	(model "${KIPRJMOD}/library/CHIPSAlliance_Connector.3dshapes/Hirose_FH12-32S-0.5SVA_2x16-4MP_P1.00mm_Vertical.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

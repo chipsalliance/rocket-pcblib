@@ -527,4 +527,15 @@
 		(zone_connect 2)
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/library/CHIPSAlliance_Package_DFN_QFN.3dshapes/WCH_CH347F_QFN-28-1EP_4x4mm_P0.4mm_EP2.7x2.7mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
