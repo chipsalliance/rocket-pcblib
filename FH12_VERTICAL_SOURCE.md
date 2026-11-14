@@ -12,3 +12,6 @@ The slot, actuator partition and internal contact shapes are simplified.
 The open actuator reaches 5.5 mm according to the catalog. This model shows it closed.
 Colors identify plastic and metal. They are not manufacturer color specifications.
 This dimensional model uses the repository Apache-2.0 license.
+
+Rectangular copper pads and separate paste apertures follow the manufacturer land pattern.
+These dimensions take priority under KLC F4.1.
