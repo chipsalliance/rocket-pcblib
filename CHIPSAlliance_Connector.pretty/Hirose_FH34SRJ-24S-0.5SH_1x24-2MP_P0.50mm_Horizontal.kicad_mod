@@ -405,4 +405,15 @@
 		(size 0.4 0.8)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 	)
+	(model "${KIPRJMOD}/library/CHIPSAlliance_Connector.3dshapes/Hirose_FH34SRJ-24S-0.5SH_1x24-2MP_P0.50mm_Horizontal.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
