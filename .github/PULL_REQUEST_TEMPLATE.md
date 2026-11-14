@@ -1,0 +1,8 @@
+- [ ] The change and affected parts are described.
+- [ ] Applicable KLC rules are checked. Exceptions and supporting evidence are recorded.
+- [ ] Pin mapping, polarity, dimensions, mask and paste match manufacturer data.
+- [ ] Library references, `${REFERENCE}` and model paths resolve without local absolute paths.
+- [ ] Changed 3D models are checked for dimensions, alignment, scale and valid solids.
+- [ ] Sources, authorship, redistribution rights and required license texts are recorded.
+- [ ] Native previews and affected board checks are provided, including remaining violations.
+- [ ] Temporary files are excluded. Commits are signed and signed off.
