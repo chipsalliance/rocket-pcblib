@@ -1,0 +1,174 @@
+(footprint "SolderJumper-2_P0.713mm_Open_DiagonalPads"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Two-pad open solder jumper, complementary diagonal pads; original FT-LINK V2 TIE copper and stencil, https://github.com/chipsalliance/rocket-pcb/pull/2")
+	(tags "solder jumper open bridge tie diagonal")
+	(property "Reference" "REF**"
+		(at 0 -1.5 0)
+		(layer "F.SilkS")
+		(uuid "528ea8dc-a776-4610-be30-6d87a02d57d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SolderJumper-2_P0.713mm_Open_DiagonalPads"
+		(at 0 1.5 0)
+		(layer "F.Fab")
+		(uuid "9e331008-c051-4098-9279-00163e474053")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "05f218c9-3023-472f-8e97-cc13c0aef1de")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "45b32913-697b-4fa0-9905-a6af17d9a523")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.8 -0.75)
+		(end 0.8 -0.75)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e910e1fc-a950-467b-ac55-1b6e3a0ad6a6")
+	)
+	(fp_line
+		(start -0.8 0.75)
+		(end 0.8 0.75)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "75fa96eb-7873-4a17-8447-bca35b838183")
+	)
+	(fp_poly
+		(pts
+			(xy -0.10913 0.5) (xy 0.82211 0.5) (xy 0.82211 -0.5) (xy 0.46488 -0.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "981931bc-ccbb-4dc3-8d62-90230b7ec6db")
+	)
+	(fp_poly
+		(pts
+			(xy 0.10913 -0.5) (xy -0.82211 -0.5) (xy -0.82211 0.5) (xy -0.46488 0.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "096268d0-4595-484b-bc0d-c67783b483d8")
+	)
+	(fp_rect
+		(start -1.08 -0.75)
+		(end 1.08 0.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "7bbc7e7f-6e25-4a73-bc31-e41e3f70d0ce")
+	)
+	(fp_rect
+		(start -0.82211 -0.5)
+		(end 0.82211 0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "2aca1e3e-2253-4dc1-bce5-91dd259404d6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "b14ad699-d832-4128-98da-0b473040be0e")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at -0.35649 0)
+		(size 0.1 0.1)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0.051)
+		(zone_connect 0)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.46562 -0.5) (xy -0.46562 -0.5) (xy -0.46562 0.5) (xy -0.10839 0.5)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "61850e1b-3418-4f0c-8865-b167a0de9812")
+	)
+	(pad "2" smd custom
+		(at 0.35649 0)
+		(size 0.1 0.1)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0.051)
+		(zone_connect 0)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.46562 0.5) (xy 0.46562 0.5) (xy 0.46562 -0.5) (xy 0.10839 -0.5)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "ded96164-6bdb-4360-af6f-324200c1b5ef")
+	)
+	(embedded_fonts no)
+)
