@@ -2,11 +2,11 @@
 	(version 20241229)
 	(generator "pcbnew")
 	(layer "F.Cu")
-	(descr "Hirose FH34SRJ-24S-0.5SH, 24 contacts, dual contact, FPC 0.3mm, height 1.0mm. FH34 catalog pp3,5.")
+	(descr "Hirose FH34SRJ-24S-0.5SH, 24 contacts, dual contact, FPC 0.3mm, height 1.0mm. FH34 catalog pp3,5. https://www.hirose.com/en/product/p/CL0580-1255-6-50")
 	(tags "FPC FFC connector ZIF horizontal dual contact")
 	(attr smd)
 	(property "Reference" "REF**"
-		(at 0 -1.8 0)
+		(at 0 -2.9 0)
 		(layer "F.SilkS")
 		(effects
 			(font
@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "Hirose_FH34SRJ-24S-0.5SH_1x24-2MP_P0.50mm_Horizontal"
-		(at 0 4 0)
+		(at 0 2.9 0)
 		(layer "F.Fab")
 		(effects
 			(font
@@ -26,8 +26,8 @@
 		)
 	)
 	(fp_line
-		(start -7 -0.8)
-		(end 7 -0.8)
+		(start -7 -1.9)
+		(end 7 -1.9)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -35,8 +35,8 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start 7 -0.8)
-		(end 7 3)
+		(start 7 -1.9)
+		(end 7 1.9)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -44,8 +44,8 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start 7 3)
-		(end -7 3)
+		(start 7 1.9)
+		(end -7 1.9)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -53,8 +53,8 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start -7 3)
-		(end -7 -0.8)
+		(start -7 1.9)
+		(end -7 -1.9)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -62,8 +62,8 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start -7.3 -1.05)
-		(end 7.3 -1.05)
+		(start -7.3 -2.15)
+		(end 7.3 -2.15)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -71,8 +71,8 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start 7.3 -1.05)
-		(end 7.3 3.25)
+		(start 7.3 -2.15)
+		(end 7.3 2.15)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -80,8 +80,8 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start 7.3 3.25)
-		(end -7.3 3.25)
+		(start 7.3 2.15)
+		(end -7.3 2.15)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -89,8 +89,8 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start -7.3 3.25)
-		(end -7.3 -1.05)
+		(start -7.3 2.15)
+		(end -7.3 -2.15)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -98,8 +98,8 @@
 		(layer "F.CrtYd")
 	)
 	(fp_line
-		(start -7.12 -0.92)
-		(end 7.12 -0.92)
+		(start -7.12 -2.02)
+		(end 7.12 -2.02)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -107,8 +107,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 7.12 -0.92)
-		(end 7.12 3.12)
+		(start 7.12 -2.02)
+		(end 7.12 2.02)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -116,8 +116,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start 7.12 3.12)
-		(end -7.12 3.12)
+		(start 7.12 2.02)
+		(end -7.12 2.02)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -125,8 +125,8 @@
 		(layer "F.SilkS")
 	)
 	(fp_line
-		(start -7.12 3.12)
-		(end -7.12 -0.92)
+		(start -7.12 2.02)
+		(end -7.12 -2.02)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -135,9 +135,9 @@
 	)
 	(fp_poly
 		(pts
-			(xy 5.4 -0.8)
-			(xy 6.1 -0.8)
-			(xy 5.75 -0.1)
+			(xy 5.4 -1.9)
+			(xy 6.1 -1.9)
+			(xy 5.75 -1.2)
 		)
 		(stroke
 			(width 0.1)
@@ -147,8 +147,8 @@
 		(layer "F.Fab")
 	)
 	(fp_line
-		(start 5.4 -1.2)
-		(end 6.1 -1.2)
+		(start 5.4 -2.3)
+		(end 6.1 -2.3)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -156,252 +156,252 @@
 		(layer "F.SilkS")
 	)
 	(pad "1" smd rect
-		(at 5.75 0)
+		(at 5.75 -1.1)
 		(size 0.3 0.8)
 		(layers "F.Cu" "F.Mask")
 	)
 	(pad "" smd rect
-		(at 5.75 -0.075)
+		(at 5.75 -1.175)
 		(size 0.25 0.65)
 		(layers "F.Paste")
 	)
 	(pad "2" smd rect
-		(at 5.25 0)
+		(at 5.25 -1.1)
 		(size 0.3 0.8)
 		(layers "F.Cu" "F.Mask")
 	)
 	(pad "" smd rect
-		(at 5.25 -0.075)
+		(at 5.25 -1.175)
 		(size 0.25 0.65)
 		(layers "F.Paste")
 	)
 	(pad "3" smd rect
-		(at 4.75 0)
+		(at 4.75 -1.1)
 		(size 0.3 0.8)
 		(layers "F.Cu" "F.Mask")
 	)
 	(pad "" smd rect
-		(at 4.75 -0.075)
+		(at 4.75 -1.175)
 		(size 0.25 0.65)
 		(layers "F.Paste")
 	)
 	(pad "4" smd rect
-		(at 4.25 0)
+		(at 4.25 -1.1)
 		(size 0.3 0.8)
 		(layers "F.Cu" "F.Mask")
 	)
 	(pad "" smd rect
-		(at 4.25 -0.075)
+		(at 4.25 -1.175)
 		(size 0.25 0.65)
 		(layers "F.Paste")
 	)
 	(pad "5" smd rect
-		(at 3.75 0)
+		(at 3.75 -1.1)
 		(size 0.3 0.8)
 		(layers "F.Cu" "F.Mask")
 	)
 	(pad "" smd rect
-		(at 3.75 -0.075)
+		(at 3.75 -1.175)
 		(size 0.25 0.65)
 		(layers "F.Paste")
 	)
 	(pad "6" smd rect
-		(at 3.25 0)
+		(at 3.25 -1.1)
 		(size 0.3 0.8)
 		(layers "F.Cu" "F.Mask")
 	)
 	(pad "" smd rect
-		(at 3.25 -0.075)
+		(at 3.25 -1.175)
 		(size 0.25 0.65)
 		(layers "F.Paste")
 	)
 	(pad "7" smd rect
-		(at 2.75 0)
+		(at 2.75 -1.1)
 		(size 0.3 0.8)
 		(layers "F.Cu" "F.Mask")
 	)
 	(pad "" smd rect
-		(at 2.75 -0.075)
+		(at 2.75 -1.175)
 		(size 0.25 0.65)
 		(layers "F.Paste")
 	)
 	(pad "8" smd rect
-		(at 2.25 0)
+		(at 2.25 -1.1)
 		(size 0.3 0.8)
 		(layers "F.Cu" "F.Mask")
 	)
 	(pad "" smd rect
-		(at 2.25 -0.075)
+		(at 2.25 -1.175)
 		(size 0.25 0.65)
 		(layers "F.Paste")
 	)
 	(pad "9" smd rect
-		(at 1.75 0)
+		(at 1.75 -1.1)
 		(size 0.3 0.8)
 		(layers "F.Cu" "F.Mask")
 	)
 	(pad "" smd rect
-		(at 1.75 -0.075)
+		(at 1.75 -1.175)
 		(size 0.25 0.65)
 		(layers "F.Paste")
 	)
 	(pad "10" smd rect
-		(at 1.25 0)
+		(at 1.25 -1.1)
 		(size 0.3 0.8)
 		(layers "F.Cu" "F.Mask")
 	)
 	(pad "" smd rect
-		(at 1.25 -0.075)
+		(at 1.25 -1.175)
 		(size 0.25 0.65)
 		(layers "F.Paste")
 	)
 	(pad "11" smd rect
-		(at 0.75 0)
+		(at 0.75 -1.1)
 		(size 0.3 0.8)
 		(layers "F.Cu" "F.Mask")
 	)
 	(pad "" smd rect
-		(at 0.75 -0.075)
+		(at 0.75 -1.175)
 		(size 0.25 0.65)
 		(layers "F.Paste")
 	)
 	(pad "12" smd rect
-		(at 0.25 0)
+		(at 0.25 -1.1)
 		(size 0.3 0.8)
 		(layers "F.Cu" "F.Mask")
 	)
 	(pad "" smd rect
-		(at 0.25 -0.075)
+		(at 0.25 -1.175)
 		(size 0.25 0.65)
 		(layers "F.Paste")
 	)
 	(pad "13" smd rect
-		(at -0.25 0)
+		(at -0.25 -1.1)
 		(size 0.3 0.8)
 		(layers "F.Cu" "F.Mask")
 	)
 	(pad "" smd rect
-		(at -0.25 -0.075)
+		(at -0.25 -1.175)
 		(size 0.25 0.65)
 		(layers "F.Paste")
 	)
 	(pad "14" smd rect
-		(at -0.75 0)
+		(at -0.75 -1.1)
 		(size 0.3 0.8)
 		(layers "F.Cu" "F.Mask")
 	)
 	(pad "" smd rect
-		(at -0.75 -0.075)
+		(at -0.75 -1.175)
 		(size 0.25 0.65)
 		(layers "F.Paste")
 	)
 	(pad "15" smd rect
-		(at -1.25 0)
+		(at -1.25 -1.1)
 		(size 0.3 0.8)
 		(layers "F.Cu" "F.Mask")
 	)
 	(pad "" smd rect
-		(at -1.25 -0.075)
+		(at -1.25 -1.175)
 		(size 0.25 0.65)
 		(layers "F.Paste")
 	)
 	(pad "16" smd rect
-		(at -1.75 0)
+		(at -1.75 -1.1)
 		(size 0.3 0.8)
 		(layers "F.Cu" "F.Mask")
 	)
 	(pad "" smd rect
-		(at -1.75 -0.075)
+		(at -1.75 -1.175)
 		(size 0.25 0.65)
 		(layers "F.Paste")
 	)
 	(pad "17" smd rect
-		(at -2.25 0)
+		(at -2.25 -1.1)
 		(size 0.3 0.8)
 		(layers "F.Cu" "F.Mask")
 	)
 	(pad "" smd rect
-		(at -2.25 -0.075)
+		(at -2.25 -1.175)
 		(size 0.25 0.65)
 		(layers "F.Paste")
 	)
 	(pad "18" smd rect
-		(at -2.75 0)
+		(at -2.75 -1.1)
 		(size 0.3 0.8)
 		(layers "F.Cu" "F.Mask")
 	)
 	(pad "" smd rect
-		(at -2.75 -0.075)
+		(at -2.75 -1.175)
 		(size 0.25 0.65)
 		(layers "F.Paste")
 	)
 	(pad "19" smd rect
-		(at -3.25 0)
+		(at -3.25 -1.1)
 		(size 0.3 0.8)
 		(layers "F.Cu" "F.Mask")
 	)
 	(pad "" smd rect
-		(at -3.25 -0.075)
+		(at -3.25 -1.175)
 		(size 0.25 0.65)
 		(layers "F.Paste")
 	)
 	(pad "20" smd rect
-		(at -3.75 0)
+		(at -3.75 -1.1)
 		(size 0.3 0.8)
 		(layers "F.Cu" "F.Mask")
 	)
 	(pad "" smd rect
-		(at -3.75 -0.075)
+		(at -3.75 -1.175)
 		(size 0.25 0.65)
 		(layers "F.Paste")
 	)
 	(pad "21" smd rect
-		(at -4.25 0)
+		(at -4.25 -1.1)
 		(size 0.3 0.8)
 		(layers "F.Cu" "F.Mask")
 	)
 	(pad "" smd rect
-		(at -4.25 -0.075)
+		(at -4.25 -1.175)
 		(size 0.25 0.65)
 		(layers "F.Paste")
 	)
 	(pad "22" smd rect
-		(at -4.75 0)
+		(at -4.75 -1.1)
 		(size 0.3 0.8)
 		(layers "F.Cu" "F.Mask")
 	)
 	(pad "" smd rect
-		(at -4.75 -0.075)
+		(at -4.75 -1.175)
 		(size 0.25 0.65)
 		(layers "F.Paste")
 	)
 	(pad "23" smd rect
-		(at -5.25 0)
+		(at -5.25 -1.1)
 		(size 0.3 0.8)
 		(layers "F.Cu" "F.Mask")
 	)
 	(pad "" smd rect
-		(at -5.25 -0.075)
+		(at -5.25 -1.175)
 		(size 0.25 0.65)
 		(layers "F.Paste")
 	)
 	(pad "24" smd rect
-		(at -5.75 0)
+		(at -5.75 -1.1)
 		(size 0.3 0.8)
 		(layers "F.Cu" "F.Mask")
 	)
 	(pad "" smd rect
-		(at -5.75 -0.075)
+		(at -5.75 -1.175)
 		(size 0.25 0.65)
 		(layers "F.Paste")
 	)
 	(pad "" smd rect
-		(at -6.75 2.5)
+		(at -6.75 1.4)
 		(size 0.4 0.8)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 	)
 	(pad "" smd rect
-		(at 6.75 2.5)
+		(at 6.75 1.4)
 		(size 0.4 0.8)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 	)
@@ -414,6 +414,16 @@
 		)
 		(rotate
 			(xyz 0 0 0)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
 		)
 	)
 )

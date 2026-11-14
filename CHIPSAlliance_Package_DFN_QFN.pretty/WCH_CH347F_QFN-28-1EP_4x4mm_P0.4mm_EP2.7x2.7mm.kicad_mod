@@ -2,7 +2,7 @@
 	(version 20260206)
 	(generator "kicad-footprint-generator")
 	(layer "F.Cu")
-	(descr "CH347F QFN28 candidate, KiCad WQFN geometry with vendor EP pad 0. EP dimensions and assembly require confirmation before layout release.")
+	(descr "WCH CH347F, QFN-28, 4x4mm, 0.4mm pitch, 2.7x2.7mm exposed pad 0. KiCad WQFN land pattern. https://www.wch.cn/downloads/CH347DS1_PDF.html")
 	(tags "WQFN NoLead T2844-1 T2844-1C T2844Y-1C")
 	(property "Reference" "REF**"
 		(at 0 -3.33 0)

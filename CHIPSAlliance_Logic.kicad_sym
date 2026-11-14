@@ -4985,7 +4985,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "TSSOP-16_4.4x5mm_P0.65mm"
+		(property "ki_fp_filters" "TSSOP*4.4x5mm*P0.65mm*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5357,7 +5357,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "VSSOP-8_2.3x2mm_P0.5mm"
+		(property "ki_fp_filters" "VSSOP*2.3x2mm*P0.5mm*"
 			(at 0 0 0)
 			(effects
 				(font

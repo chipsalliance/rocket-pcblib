@@ -15,3 +15,6 @@ This project-generated dimensional model uses the repository Apache-2.0 license.
 Model offset and rotation are zero. Scale is one.
 
 Source: https://www.wch.cn/downloads/CH347DS1_PDF.html
+
+Exposed pad 0 uses four separate paste apertures, as described in KLC F6.3.
+The copper pad intentionally omits F.Paste to avoid a full-area stencil opening.

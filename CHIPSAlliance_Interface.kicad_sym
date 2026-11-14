@@ -4682,7 +4682,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "WCH_CH347F_QFN*"
+		(property "ki_fp_filters" "WCH?CH347F?QFN*"
 			(at 0 0 0)
 			(effects
 				(font
