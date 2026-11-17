@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "http://suddendocs.samtec.com/prints/asp-134603-01-mkt.pdf")
+	(descr "Samtec FMC LPC surface-mount connector, 160 contacts, 1.27mm pitch, https://suddendocs.samtec.com/prints/asp-134603-01-mkt.pdf")
 	(tags "FMC LPC")
 	(property "Reference" "REF**"
 		(at 0 -8 0)
@@ -258,8 +258,8 @@
 		(uuid "054d0e67-7ca6-4201-baf0-979f656fcf7f")
 	)
 	(fp_line
-		(start -26.885 -6.62)
-		(end -27.865 -5.64)
+		(start -26.885 -6.615)
+		(end -27.865 -5.63)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -1273,13 +1273,15 @@
 	)
 	(model "${KIPRJMOD}/library/CHIPSAlliance_Connector.3dshapes/Samtec_FMC_ASP-134603-01_4x40_P1.27mm_Vertical.step"
 		(offset
-			(xyz 0 0 1.7)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 180)
+			(xyz 0 0 0)
 		)
 	)
+
+	(fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") (effects (font (size 1 1) (thickness 0.15))))
 )

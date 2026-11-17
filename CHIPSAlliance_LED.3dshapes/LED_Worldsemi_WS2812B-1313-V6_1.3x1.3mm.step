@@ -1,5 +1,7 @@
 ISO-10303-21;
 HEADER;
+/* Editable source: https://github.com/vowstar/rocket-pcblib-generators/blob/4bfd24b7176961a652fc065531e61c8c10dc5689/models/CHIPSAlliance_LED/LED_Worldsemi_WS2812B-1313-V6_1.3x1.3mm/generate.py */
+
 /* SPDX-License-Identifier: Apache-2.0
  * Source: LED_Worldsemi_WS2812B-1313-V6_1.3x1.3mm.py; nominal dimensions and display
  * approximations are documented in that original model source. */

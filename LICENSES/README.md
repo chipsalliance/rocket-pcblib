@@ -13,6 +13,7 @@ The exception covers designs using library assets. It does not cover redistribut
 
 Upstream: [KiCad 3D libraries](https://gitlab.com/kicad/libraries/kicad-packages3D) and [library license](https://www.kicad.org/libraries/license/).
 Repository history records local changes, including names and coordinate transforms.
+[Coordinate transform source](https://github.com/vowstar/rocket-pcblib-generators/blob/4bfd24b7176961a652fc065531e61c8c10dc5689/transforms/kicad-alignment.json).
 
 | File |
 | --- |
@@ -72,15 +73,15 @@ Upstream: [KiCad 3D library history](https://gitlab.com/kicad/libraries/kicad-pa
 | [CHIPSAlliance_Package_DFN_QFN.3dshapes/DFN-14-1EP_3x3mm_P0.4mm_EP1.78x2.35mm.step](../CHIPSAlliance_Package_DFN_QFN.3dshapes/DFN-14-1EP_3x3mm_P0.4mm_EP1.78x2.35mm.step) |
 | [CHIPSAlliance_Package_DFN_QFN.3dshapes/QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm.step](../CHIPSAlliance_Package_DFN_QFN.3dshapes/QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm.step) |
 | [CHIPSAlliance_Package_DFN_QFN.3dshapes/QFN-36-1EP_6x6mm_P0.5mm_EP3.7x3.7mm.step](../CHIPSAlliance_Package_DFN_QFN.3dshapes/QFN-36-1EP_6x6mm_P0.5mm_EP3.7x3.7mm.step) |
-| [CHIPSAlliance_Package_SON.3dshapes/USON-10_2.5x1.0mm_P0.5mm.step](../CHIPSAlliance_Package_SON.3dshapes/USON-10_2.5x1.0mm_P0.5mm.step) |
 | [CHIPSAlliance_Package_SON.3dshapes/WSON-6_1.5x1.5mm_P0.5mm.step](../CHIPSAlliance_Package_SON.3dshapes/WSON-6_1.5x1.5mm_P0.5mm.step) |
 
 ## CADENAS connector models
 
 The following STEP headers identify CADENAS and declare [CC-BY-ND-4.0](CC-BY-ND-4.0.txt).
-These files are unchanged since commit `48d8be6`.
+The original assets were recorded in commit `48d8be6`.
+Their coordinates were normalized for KiCad. Shapes, colors and original notices are retained.
 Their original download URLs were not recorded. Manufacturer part numbers remain in their filenames.
-Retain attribution and the license. Do not distribute modified models under this license.
+Retain attribution and the license. Do not distribute Adapted Material under this license.
 These models are not covered by the KiCad library exception.
 
 | File |
@@ -107,12 +108,14 @@ Generated from manufacturer dimensions and licensed under Apache-2.0.
 
 | File | Evidence |
 | --- | --- |
-| [CHIPSAlliance_Button_Switch_SMD.3dshapes/SW_Push_1P1T_NO_SAMZO_C4B1802110.step](../CHIPSAlliance_Button_Switch_SMD.3dshapes/SW_Push_1P1T_NO_SAMZO_C4B1802110.step) | Apache-2.0 notice in the model header |
-| [CHIPSAlliance_Connector.3dshapes/Hirose_FH12-32S-0.5SVA_2x16-4MP_P1.00mm_Vertical.step](../CHIPSAlliance_Connector.3dshapes/Hirose_FH12-32S-0.5SVA_2x16-4MP_P1.00mm_Vertical.step) | [FH12 source](../FH12_VERTICAL_SOURCE.md) |
-| [CHIPSAlliance_Connector.3dshapes/Hirose_FH34SRJ-24S-0.5SH_1x24-2MP_P0.50mm_Horizontal.step](../CHIPSAlliance_Connector.3dshapes/Hirose_FH34SRJ-24S-0.5SH_1x24-2MP_P0.50mm_Horizontal.step) | [FH34 source](../FH34_SOURCE.md) |
+| [CHIPSAlliance_Button_Switch_SMD.3dshapes/SW_Push_1P1T_NO_SAMZO_C4B1802110.step](../CHIPSAlliance_Button_Switch_SMD.3dshapes/SW_Push_1P1T_NO_SAMZO_C4B1802110.step) | Apache-2.0 notice in the model header · [Generator](https://github.com/vowstar/rocket-pcblib-generators/blob/4bfd24b7176961a652fc065531e61c8c10dc5689/models/CHIPSAlliance_Button_Switch_SMD/SW_Push_1P1T_NO_SAMZO_C4B1802110/generate.py) |
+| [CHIPSAlliance_Connector.3dshapes/Hirose_FH12-32S-0.5SVA_2x16-4MP_P1.00mm_Vertical.step](../CHIPSAlliance_Connector.3dshapes/Hirose_FH12-32S-0.5SVA_2x16-4MP_P1.00mm_Vertical.step) | [FH12 source](../FH12_VERTICAL_SOURCE.md) · [Generator](https://github.com/vowstar/rocket-pcblib-generators/blob/4bfd24b7176961a652fc065531e61c8c10dc5689/models/CHIPSAlliance_Connector/Hirose_FH12-32S-0.5SVA_2x16-4MP_P1.00mm_Vertical/generate.py) |
+| [CHIPSAlliance_Connector.3dshapes/Hirose_FH34SRJ-24S-0.5SH_1x24-2MP_P0.50mm_Horizontal.step](../CHIPSAlliance_Connector.3dshapes/Hirose_FH34SRJ-24S-0.5SH_1x24-2MP_P0.50mm_Horizontal.step) | [FH34 source](../FH34_SOURCE.md) · [Generator](https://github.com/vowstar/rocket-pcblib-generators/blob/4bfd24b7176961a652fc065531e61c8c10dc5689/models/CHIPSAlliance_Connector/Hirose_FH34SRJ-24S-0.5SH_1x24-2MP_P0.50mm_Horizontal/generate.py) |
 | [CHIPSAlliance_Connector.3dshapes/USB_C_Receptacle_Kinghelm_KH-TYPE-C-16P.step](../CHIPSAlliance_Connector.3dshapes/USB_C_Receptacle_Kinghelm_KH-TYPE-C-16P.step) | Project model, commit `8555846`, [Kinghelm drawing](https://www.kinghelm.com.cn/upload/file/20220505/KH-TYPE-C-16P.pdf) |
-| [CHIPSAlliance_LED.3dshapes/LED_Worldsemi_WS2812B-1313-V6_1.3x1.3mm.step](../CHIPSAlliance_LED.3dshapes/LED_Worldsemi_WS2812B-1313-V6_1.3x1.3mm.step) | Apache-2.0 notice in the model header |
-| [CHIPSAlliance_Oscillator.3dshapes/Oscillator_SMD_YXC_YSO230LR-6Pin_3.2x2.5mm.step](../CHIPSAlliance_Oscillator.3dshapes/Oscillator_SMD_YXC_YSO230LR-6Pin_3.2x2.5mm.step) | [Source and license](../YSO230LR_SOURCE.md) |
+| [CHIPSAlliance_LED.3dshapes/LED_Worldsemi_WS2812B-1313-V6_1.3x1.3mm.step](../CHIPSAlliance_LED.3dshapes/LED_Worldsemi_WS2812B-1313-V6_1.3x1.3mm.step) | Apache-2.0 notice in the model header · [Generator](https://github.com/vowstar/rocket-pcblib-generators/blob/4bfd24b7176961a652fc065531e61c8c10dc5689/models/CHIPSAlliance_LED/LED_Worldsemi_WS2812B-1313-V6_1.3x1.3mm/generate.py) |
+| [CHIPSAlliance_Oscillator.3dshapes/Oscillator_SMD_YXC_YSO230LR-6Pin_3.2x2.5mm.step](../CHIPSAlliance_Oscillator.3dshapes/Oscillator_SMD_YXC_YSO230LR-6Pin_3.2x2.5mm.step) | [Source and license](../YSO230LR_SOURCE.md) · [Generator](https://github.com/vowstar/rocket-pcblib-generators/blob/4bfd24b7176961a652fc065531e61c8c10dc5689/models/CHIPSAlliance_Oscillator/Oscillator_SMD_YXC_YSO230LR-6Pin_3.2x2.5mm/generate.py) |
 | [CHIPSAlliance_Oscillator.3dshapes/Resonator_SMD_Murata_CSTNE-3Pin_3.2x1.3mm.step](../CHIPSAlliance_Oscillator.3dshapes/Resonator_SMD_Murata_CSTNE-3Pin_3.2x1.3mm.step) | Project model, commit `8555846`, [Murata drawing](https://www.murata.com/products/productdata/8801162100766/SPEC-CSTNE12M0GH5C000R0.pdf) |
-| [CHIPSAlliance_Package_DFN_QFN.3dshapes/WCH_CH347F_QFN-28-1EP_4x4mm_P0.4mm_EP2.7x2.7mm.step](../CHIPSAlliance_Package_DFN_QFN.3dshapes/WCH_CH347F_QFN-28-1EP_4x4mm_P0.4mm_EP2.7x2.7mm.step) | [WCH CH347DS1](https://www.wch.cn/downloads/CH347DS1_PDF.html) · [Generator](https://github.com/vowstar/rocket-pcblib-generators/tree/4bfd24b7176961a652fc065531e61c8c10dc5689/models/CHIPSAlliance_Package_DFN_QFN/WCH_CH347F_QFN-28-1EP_4x4mm_P0.4mm_EP2.7x2.7mm) |
-| [CHIPSAlliance_Package_SON.3dshapes/WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm.step](../CHIPSAlliance_Package_SON.3dshapes/WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm.step) | Apache-2.0 notice in the model header |
+| [CHIPSAlliance_Package_DFN_QFN.3dshapes/WCH_CH347F_QFN-28-1EP_4x4mm_P0.4mm_EP2.7x2.7mm.step](../CHIPSAlliance_Package_DFN_QFN.3dshapes/WCH_CH347F_QFN-28-1EP_4x4mm_P0.4mm_EP2.7x2.7mm.step) | [WCH CH347DS1](https://www.wch.cn/downloads/CH347DS1_PDF.html) · [Generator](https://github.com/vowstar/rocket-pcblib-generators/blob/4bfd24b7176961a652fc065531e61c8c10dc5689/models/CHIPSAlliance_Package_DFN_QFN/WCH_CH347F_QFN-28-1EP_4x4mm_P0.4mm_EP2.7x2.7mm/generate.py) |
+| [CHIPSAlliance_Package_SON.3dshapes/WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm.step](../CHIPSAlliance_Package_SON.3dshapes/WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm.step) | Apache-2.0 notice in the model header · [Generator](https://github.com/vowstar/rocket-pcblib-generators/blob/4bfd24b7176961a652fc065531e61c8c10dc5689/models/CHIPSAlliance_Package_SON/WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm/generate.py) |
+| [TI USON-10 model](../CHIPSAlliance_Package_SON.3dshapes/USON-10_2.5x1.0mm_P0.5mm.step) | [Source](../USON_SOURCE.md) |
+| [TECH PUBLIC USON-10 model](../CHIPSAlliance_Package_SON.3dshapes/TechPublic_USON-10_2.5x1.0mm_P0.5mm.step) | [Source](../USON_SOURCE.md) |

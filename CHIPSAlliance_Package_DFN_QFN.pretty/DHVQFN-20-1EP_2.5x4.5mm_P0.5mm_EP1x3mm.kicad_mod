@@ -414,13 +414,13 @@
 	)
 	(model "${KIPRJMOD}/library/CHIPSAlliance_Package_DFN_QFN.3dshapes/DHVQFN-20-1EP_2.5x4.5mm_P0.5mm_EP1x3mm.step"
 		(offset
-			(xyz 2.6 -1.32 2)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 90 0 -90)
+			(xyz 0 0 0)
 		)
 	)
 )

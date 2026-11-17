@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "54-lead TSOP typ II package")
+	(descr "54-lead TSOP typ II package; JEDEC MS-024, https://www.jedec.org/standards-documents/docs/ms-024")
 	(tags "TSOPII TSOP2")
 	(property "Reference" "REF**"
 		(at 0 -12.5 0)

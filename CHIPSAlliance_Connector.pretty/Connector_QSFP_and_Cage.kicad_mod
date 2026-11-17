@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "Generic QSFP / QSFP+ connector and cage footprint")
+	(descr "Generic QSFP / QSFP+ connector and cage footprint; TE 2170704-2 cage and 1551920-2 connector, https://www.te.com/en/product-2170704-2.html https://www.te.com/en/product-1551920-2.html")
 	(tags "qsfp connector optical")
 	(property "Reference" "REF**"
 		(at 10.875 -10.6 0)
@@ -363,8 +363,8 @@
 		(uuid "92d4dc52-e8db-4b40-84d8-ec68ef14551b")
 	)
 	(fp_line
-		(start -48.5 -11.5)
-		(end 14 -11.5)
+		(start -48.7 -11.5)
+		(end 14.3 -11.5)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -373,8 +373,8 @@
 		(uuid "6fd8dd4e-01b0-400b-ae3f-a9ea42767fcd")
 	)
 	(fp_line
-		(start -48.5 11.5)
-		(end -48.5 -11.5)
+		(start -48.7 11.5)
+		(end -48.7 -11.5)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -383,8 +383,8 @@
 		(uuid "491296dd-a2d3-4e9d-85e6-e6a6c7756959")
 	)
 	(fp_line
-		(start -48.5 11.5)
-		(end 14 11.5)
+		(start -48.7 11.5)
+		(end 14.3 11.5)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -393,8 +393,8 @@
 		(uuid "07088e90-f3ee-4028-97a4-5631b94d1b31")
 	)
 	(fp_line
-		(start 14 11.5)
-		(end 14 -11.5)
+		(start 14.3 11.5)
+		(end 14.3 -11.5)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -855,24 +855,24 @@
 	)
 	(model "${KIPRJMOD}/library/CHIPSAlliance_Connector.3dshapes/TE_QSFP_Cage_2170704-2.step"
 		(offset
-			(xyz -48.2 0 5)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 90 180 -90)
+			(xyz 0 0 0)
 		)
 	)
-	(model "${KIPRJMOD}/library/CHIPSAlliance_Connector.3dshapes/TE_zQSFP+_Connector_1551920-2.stp"
+	(model "${KIPRJMOD}/library/CHIPSAlliance_Connector.3dshapes/TE_zQSFP+_Connector_1551920-2.step"
 		(offset
-			(xyz -2.9 0 3.4)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 90)
+			(xyz 0 0 0)
 		)
 	)
 )

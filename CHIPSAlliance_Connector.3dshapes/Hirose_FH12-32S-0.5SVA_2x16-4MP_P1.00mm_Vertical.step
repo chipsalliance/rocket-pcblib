@@ -1,5 +1,7 @@
 ISO-10303-21;
 HEADER;
+/* Editable source: https://github.com/vowstar/rocket-pcblib-generators/blob/4bfd24b7176961a652fc065531e61c8c10dc5689/models/CHIPSAlliance_Connector/Hirose_FH12-32S-0.5SVA_2x16-4MP_P1.00mm_Vertical/generate.py */
+
 FILE_DESCRIPTION(('FreeCAD Model'),'2;1');
 FILE_NAME('Open CASCADE Shape Model','2026-11-13T22:42:13',('Author'),(
     ''),'Open CASCADE STEP processor 7.8','FreeCAD','Unknown');

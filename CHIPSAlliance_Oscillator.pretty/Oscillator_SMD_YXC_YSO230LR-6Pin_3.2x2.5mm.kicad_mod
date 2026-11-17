@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "Differential Crystal Oscillator YXC LVDS")
+	(descr "YXC YSO230LR differential oscillator, 3.2x2.5mm body, https://www.yxc.hk/uploadfiles/2025/10/YXC-YSO230LR.pdf")
 	(tags "SMD SMT crystal oscillator")
 	(property "Reference" "REF**"
 		(at 0 -3 0)
@@ -132,8 +132,8 @@
 		(uuid "d0dfd7c1-401d-4f64-8463-f4c0813ac28f")
 	)
 	(fp_line
-		(start -1.5 -1.9)
-		(end -1.5 1.9)
+		(start -1.65 -2.1)
+		(end -1.65 2.1)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -142,8 +142,8 @@
 		(uuid "3559e287-424e-4397-b080-77c7ba6f395b")
 	)
 	(fp_line
-		(start -1.5 1.9)
-		(end 1.5 1.9)
+		(start -1.65 2.1)
+		(end 1.65 2.1)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -152,8 +152,8 @@
 		(uuid "e6521bef-4109-48f7-8b88-4121b0468927")
 	)
 	(fp_line
-		(start 1.5 -1.9)
-		(end -1.5 -1.9)
+		(start 1.65 -2.1)
+		(end -1.65 -2.1)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -162,8 +162,8 @@
 		(uuid "dd2f6b13-9e35-4a67-90ac-cf0d1ea34e5a")
 	)
 	(fp_line
-		(start 1.5 1.9)
-		(end 1.5 -1.9)
+		(start 1.65 2.1)
+		(end 1.65 -2.1)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -262,42 +262,42 @@
 			)
 		)
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at -0.875 -1.4)
 		(size 1.05 0.9)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "a1c7b1f5-f895-4192-9484-2357882c73e0")
-	)
-	(pad "2" smd rect
+	 (roundrect_rratio 0.055555556))
+	(pad "2" smd roundrect
 		(at -0.875 0)
 		(size 1.05 0.8)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "563c12e4-8f8c-446c-a11f-94f5aa93b994")
-	)
-	(pad "3" smd rect
+	 (roundrect_rratio 0.062500000))
+	(pad "3" smd roundrect
 		(at -0.875 1.4)
 		(size 1.05 0.9)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "681bd495-c396-44ce-92bd-4b397cd48c04")
-	)
-	(pad "4" smd rect
+	 (roundrect_rratio 0.055555556))
+	(pad "4" smd roundrect
 		(at 0.875 1.4)
 		(size 1.05 0.9)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "be0953c0-632d-4dd2-85e9-4d41239f22d2")
-	)
-	(pad "5" smd rect
+	 (roundrect_rratio 0.055555556))
+	(pad "5" smd roundrect
 		(at 0.875 0)
 		(size 1.05 0.8)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "3451168c-3c76-4628-aee4-7c231bd100c3")
-	)
-	(pad "6" smd rect
+	 (roundrect_rratio 0.062500000))
+	(pad "6" smd roundrect
 		(at 0.875 -1.4)
 		(size 1.05 0.9)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "a3668681-09b1-48f0-a7b1-f6b24183a469")
-	)
+	 (roundrect_rratio 0.055555556))
 	(model "${KIPRJMOD}/library/CHIPSAlliance_Oscillator.3dshapes/Oscillator_SMD_YXC_YSO230LR-6Pin_3.2x2.5mm.step"
 		(offset
 			(xyz 0 0 0)

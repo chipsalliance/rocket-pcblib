@@ -1,5 +1,7 @@
 ISO-10303-21;
 HEADER;
+/* Editable source: https://github.com/vowstar/rocket-pcblib-generators/blob/4bfd24b7176961a652fc065531e61c8c10dc5689/models/CHIPSAlliance_Oscillator/Oscillator_SMD_YXC_YSO230LR-6Pin_3.2x2.5mm/generate.py */
+
 FILE_DESCRIPTION(('FreeCAD Model'),'2;1');
 FILE_NAME('Open CASCADE Shape Model','2026-10-20T09:09:41',('Author'),(
     ''),'Open CASCADE STEP processor 7.8','FreeCAD','Unknown');

@@ -6,8 +6,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
 			(at -6.35 11.43 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16,6 +20,8 @@
 		)
 		(property "Value" "GD25LQ128EWxG"
 			(at 7.62 13.97 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24,48 +30,58 @@
 		)
 		(property "Footprint" "CHIPSAlliance_Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
-			(hide yes)
 		)
 		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20211122/9F6E477CE95D33C1850BF40E75C00EA5.pdf"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
-			(hide yes)
 		)
 		(property "Description" "128Mbit 1.65V-2.0V Quad SPI NOR flash, HOLD pin, WSON-8 6x5mm, internally floating exposed pad"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
-			(hide yes)
 		)
 		(property "ki_keywords" "memory flash NOR SPI QSPI 1.8V"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
-			(hide yes)
 		)
 		(property "ki_fp_filters" "WSON*1EP*6x5mm*P1.27mm*EP3.4x4mm*"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
-			(hide yes)
 		)
 		(symbol "GD25LQ128EWxG_0_1"
 			(rectangle
@@ -244,13 +260,260 @@
 				)
 			)
 		)
+		(embedded_fonts no)
+	)
+	(symbol "GD25Q128ESxG"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at -10.16 11.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GD25Q128ESxG"
+			(at 7.62 13.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CHIPSAlliance_Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20210423/C2758105_5B8FF46BBA9FF880A5F3E50B6815040C.pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "128Mbit 2.7V-3.6V Quad SPI NOR flash, configurable HOLD/RESET, SOP-8 208mil"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "memory flash NOR SPI QSPI 3.3V 16MiB"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "SOIC*5.3x5.3mm*P1.27mm*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "GD25Q128ESxG_0_1"
+			(rectangle
+				(start -10.16 10.16)
+				(end 10.16 -10.16)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "GD25Q128ESxG_1_1"
+			(pin input line
+				(at -12.7 7.62 0)
+				(length 2.54)
+				(name "~{CS}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -12.7 0 0)
+				(length 2.54)
+				(name "SO(IO1)"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -12.7 -2.54 0)
+				(length 2.54)
+				(name "~{WP}(IO2)"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -12.7 90)
+				(length 2.54)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -12.7 2.54 0)
+				(length 2.54)
+				(name "SI(IO0)"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 5.08 0)
+				(length 2.54)
+				(name "SCLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -12.7 -5.08 0)
+				(length 2.54)
+				(name "~{HOLD}/~{RESET}(IO3)"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 12.7 270)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
 	)
 	(symbol "GD25Q80EEIG"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
 			(at -6.35 11.43 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -259,6 +522,8 @@
 		)
 		(property "Value" "GD25Q80EEIG"
 			(at 7.62 11.43 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -267,38 +532,46 @@
 		)
 		(property "Footprint" "Package_SON:Winbond_USON-8-1EP_3x2mm_P0.5mm_EP0.2x1.6mm"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20240809/5A0C59FFCAAE1F4F47C48F4B6AA93EF7.pdf"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "8Mb Uniform Sector Dual and Quad Serial Flash"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_keywords" "flash memory SPI"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "GD25Q80EEIG_0_1"
@@ -478,70 +751,89 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "MT25QUxxxxxx8x12"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at -10.16 10.16 0)
+			(at -7.62 16.51 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "MT25QUxxxxxx8x12"
-			(at 8.89 11.43 0)
+			(at -7.62 13.97 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "CHIPSAlliance_Package_BGA:Micron_T-PBGA-24_6x8mm_Layout5x5_P1mm_Ball0.4mm_Pad0.4mm_NSMD"
 			(at 20.32 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://media-www.micron.com/-/media/client/global/documents/products/data-sheet/nor-flash/serial-nor/mt25q/die-rev-a/mt25q_qljs_u_256_aba_0.pdf"
 			(at 0 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Micron 128M/256M/512M/1G/2Gbit, 1.8V Multiple I/O Serial NOR Flash Memory, T-PBGA-24"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_keywords" "Flash SPI DSPI QSPI 128Mbit 256Mbit 512Mbit 1Gbit 2Gbit 1.8V"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "Micron*TPBGA24* Micron?T?PBGA?24?6x8mm?Layout5x5?P1mm?Ball0.4mm?Pad0.4mm?NSMD"
+		(property "ki_fp_filters" "Micron?T?PBGA*6x8mm*Layout5x5*P1mm*Ball0.4mm*Pad0.4mm*NSMD*"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "MT25QUxxxxxx8x12_0_1"
@@ -560,7 +852,8 @@
 		(symbol "MT25QUxxxxxx8x12_1_0"
 			(pin no_connect line
 				(at 7.62 6.35 180)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "RFU"
 					(effects
 						(font
@@ -578,7 +871,8 @@
 			)
 			(pin no_connect line
 				(at 7.62 3.81 180)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "RFU"
 					(effects
 						(font
@@ -596,7 +890,8 @@
 			)
 			(pin no_connect line
 				(at 7.62 1.27 180)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "RFU"
 					(effects
 						(font
@@ -614,7 +909,8 @@
 			)
 			(pin no_connect line
 				(at 7.62 -1.27 180)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "RFU"
 					(effects
 						(font
@@ -632,7 +928,8 @@
 			)
 			(pin no_connect line
 				(at 7.62 -3.81 180)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "RFU"
 					(effects
 						(font
@@ -650,7 +947,8 @@
 			)
 			(pin no_connect line
 				(at 7.62 -6.35 180)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "RFU"
 					(effects
 						(font
@@ -668,7 +966,8 @@
 			)
 			(pin no_connect line
 				(at 7.62 -8.89 180)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "RFU"
 					(effects
 						(font
@@ -686,7 +985,8 @@
 			)
 			(pin no_connect line
 				(at 7.62 -11.43 180)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "RFU"
 					(effects
 						(font
@@ -706,7 +1006,8 @@
 		(symbol "MT25QUxxxxxx8x12_1_1"
 			(pin no_connect line
 				(at 7.62 -5.08 180)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -724,7 +1025,8 @@
 			)
 			(pin no_connect line
 				(at 7.62 -2.54 180)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "RFU"
 					(effects
 						(font
@@ -760,7 +1062,8 @@
 			)
 			(pin no_connect line
 				(at 7.62 0 180)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "RFU"
 					(effects
 						(font
@@ -778,7 +1081,8 @@
 			)
 			(pin no_connect line
 				(at 7.62 2.54 180)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "RFU"
 					(effects
 						(font
@@ -850,7 +1154,8 @@
 			)
 			(pin no_connect line
 				(at 7.62 5.08 180)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "RFU"
 					(effects
 						(font
@@ -868,7 +1173,8 @@
 			)
 			(pin no_connect line
 				(at 7.62 7.62 180)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "RFU"
 					(effects
 						(font
@@ -904,7 +1210,8 @@
 			)
 			(pin no_connect line
 				(at 7.62 -7.62 180)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "RFU"
 					(effects
 						(font
@@ -993,13 +1300,18 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "MT25QUxxxxxx8xSF"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
 			(at -10.16 10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1008,6 +1320,8 @@
 		)
 		(property "Value" "MT25QUxxxxxx8xSF"
 			(at 8.89 11.43 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1016,47 +1330,57 @@
 		)
 		(property "Footprint" "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm"
 			(at 20.32 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://media-www.micron.com/-/media/client/global/documents/products/data-sheet/nor-flash/serial-nor/mt25q/die-rev-a/mt25q_qljs_u_256_aba_0.pdf"
 			(at 0 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Micron 128M/256M/512M/1G/2Gbit, 1.8V Multiple I/O Serial NOR Flash Memory, SO16"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_keywords" "Flash SPI DSPI QSPI 128Mbit 256Mbit 512Mbit 1Gbit 2Gbit 1.8V"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_fp_filters" "*SOIC-16W*7.5x10.3mm*P1.27mm*"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "MT25QUxxxxxx8xSF_0_1"
@@ -1084,132 +1408,6 @@
 					)
 				)
 				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 -15.24 90)
-				(length 2.54)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 7.62 2.54 180)
-				(length 2.54) hide
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 7.62 5.08 180)
-				(length 2.54) hide
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 7.62 7.62 180)
-				(length 2.54) hide
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 7.62 -7.62 180)
-				(length 2.54) hide
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -10.16 2.54 0)
-				(length 2.54)
-				(name "DQ0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -10.16 5.08 0)
-				(length 2.54)
-				(name "C"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "16"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1255,7 +1453,8 @@
 			)
 			(pin no_connect line
 				(at 7.62 -5.08 180)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -1273,7 +1472,8 @@
 			)
 			(pin no_connect line
 				(at 7.62 -2.54 180)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -1291,7 +1491,8 @@
 			)
 			(pin no_connect line
 				(at 7.62 0 180)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -1361,231 +1562,137 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at 0 -15.24 90)
+				(length 2.54)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 7.62 2.54 180)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 7.62 5.08 180)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 7.62 7.62 180)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 7.62 -7.62 180)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -10.16 2.54 0)
+				(length 2.54)
+				(name "DQ0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 5.08 0)
+				(length 2.54)
+				(name "C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
-	(symbol "GD25Q128ESxG"
-	(exclude_from_sim no)
-	(in_bom yes)
-	(on_board yes)
-	(property "Reference" "U"
-		(at -10.16 11.43 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
-	(property "Value" "GD25Q128ESxG"
-		(at 7.62 13.97 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
-	(property "Footprint" "CHIPSAlliance_Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
-		(at 0 0 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(hide yes)
-	)
-	(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20210423/C2758105_5B8FF46BBA9FF880A5F3E50B6815040C.pdf"
-		(at 0 0 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(hide yes)
-	)
-	(property "Description" "128Mbit 2.7V-3.6V Quad SPI NOR flash, configurable HOLD/RESET, SOP-8 208mil"
-		(at 0 0 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(hide yes)
-	)
-	(property "ki_keywords" "memory flash NOR SPI QSPI 3.3V 16MiB"
-		(at 0 0 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(hide yes)
-	)
-	(property "ki_fp_filters" "SOIC*5.3x5.3mm*P1.27mm*"
-		(at 0 0 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(hide yes)
-	)
-	(symbol "GD25Q128ESxG_0_1"
-		(rectangle
-			(start -10.16 10.16)
-			(end 10.16 -10.16)
-			(stroke
-				(width 0.254)
-				(type default)
-			)
-			(fill
-				(type background)
-			)
-		)
-	)
-	(symbol "GD25Q128ESxG_1_1"
-		(pin input line
-			(at -12.7 7.62 0)
-			(length 2.54)
-			(name "~{CS}"
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(number "1"
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-		)
-		(pin bidirectional line
-			(at -12.7 0 0)
-			(length 2.54)
-			(name "SO(IO1)"
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(number "2"
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-		)
-		(pin bidirectional line
-			(at -12.7 -2.54 0)
-			(length 2.54)
-			(name "~{WP}(IO2)"
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(number "3"
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-		)
-		(pin power_in line
-			(at 0 -12.7 90)
-			(length 2.54)
-			(name "VSS"
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(number "4"
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-		)
-		(pin bidirectional line
-			(at -12.7 2.54 0)
-			(length 2.54)
-			(name "SI(IO0)"
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(number "5"
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-		)
-		(pin input line
-			(at -12.7 5.08 0)
-			(length 2.54)
-			(name "SCLK"
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(number "6"
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-		)
-		(pin bidirectional line
-			(at -12.7 -5.08 0)
-			(length 2.54)
-			(name "~{HOLD}/~{RESET}(IO3)"
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(number "7"
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-		)
-		(pin power_in line
-			(at 0 12.7 270)
-			(length 2.54)
-			(name "VCC"
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(number "8"
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-		)
-	)
-)
 )

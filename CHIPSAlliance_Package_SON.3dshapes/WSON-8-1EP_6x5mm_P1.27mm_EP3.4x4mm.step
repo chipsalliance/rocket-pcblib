@@ -1,5 +1,7 @@
 ISO-10303-21;
 HEADER;
+/* Editable source: https://github.com/vowstar/rocket-pcblib-generators/blob/4bfd24b7176961a652fc065531e61c8c10dc5689/models/CHIPSAlliance_Package_SON/WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm/generate.py */
+
 /* SPDX-License-Identifier: Apache-2.0
  * Source: WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm.py
  * GD25LQ128E WSON8 6x5mm nominal geometry; display details

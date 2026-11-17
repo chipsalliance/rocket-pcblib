@@ -7,7 +7,7 @@ X = +/-6.75 mm and Y = 1.40 mm. Their outside and inside spans are 13.90 and
 13.10 mm. Separate signal paste openings are 0.25 x 0.65 mm, aligned with
 the outer edge of the copper. The recommended stencil thickness is 0.10 mm.
 The 14.0 x 3.8 mm body is 1.0 mm high. Courtyard clearance is at least
-0.25 mm from the body and pads. Pin 1 is at the right of the signal row,
+0.50 mm from the body and pads. Pin 1 is at the right of the signal row,
 as shown in the manufacturer's PCB land drawing.
 
 The connector accepts 0.30 +/-0.03 mm FPC. The standard cable drawing uses
@@ -35,3 +35,5 @@ Existing boards need the same rotated origin adjustment to preserve pad position
 
 Rectangular copper pads and separate paste apertures follow the manufacturer land pattern.
 These dimensions take priority under KLC F4.1.
+
+[FreeCAD generator](https://github.com/vowstar/rocket-pcblib-generators/blob/4bfd24b7176961a652fc065531e61c8c10dc5689/models/CHIPSAlliance_Connector/Hirose_FH34SRJ-24S-0.5SH_1x24-2MP_P0.50mm_Horizontal/generate.py).

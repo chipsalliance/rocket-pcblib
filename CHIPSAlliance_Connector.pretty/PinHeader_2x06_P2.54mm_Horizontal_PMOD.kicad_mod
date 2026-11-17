@@ -1,6 +1,6 @@
 (footprint "PinHeader_2x06_P2.54mm_Horizontal_PMOD" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (descr "Through hole angled pin header, 2x06, 2.54mm pitch, 6mm pin length, double rows")
+  (descr "Through hole angled pin header, 2x06, 2.54mm pitch, 6mm pin length, double rows; PMOD pad numbering, based on KiCad connector footprints, https://gitlab.com/kicad/libraries/kicad-footprints")
   (tags "Through hole angled pin header THT 2x06 2.54mm double row")
   (property "Sheetfile" "pmod_microsd.kicad_sch")
   (property "Sheetname" "")
@@ -249,8 +249,8 @@
   (pad "11" thru_hole oval (at -2.54 10.16) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 4a60b0c8-5f59-4079-90c0-3c3a8aa9f325))
   (pad "12" thru_hole oval (at -2.54 12.7) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (tstamp b4adb295-4342-46be-9b34-6dc3afee702f))
   (model "${KIPRJMOD}/library/CHIPSAlliance_Connector.3dshapes/PinHeader_2x06_P2.54mm_Horizontal.step"
-    (offset (xyz 0 -12.7 0))
+    (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 180))
+    (rotate (xyz 0 0 0))
   )
 )

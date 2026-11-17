@@ -1,5 +1,7 @@
 ISO-10303-21;
 HEADER;
+/* Editable source: https://github.com/vowstar/rocket-pcblib-generators/blob/4bfd24b7176961a652fc065531e61c8c10dc5689/models/CHIPSAlliance_Button_Switch_SMD/SW_Push_1P1T_NO_SAMZO_C4B1802110/generate.py */
+
 /* SPDX-License-Identifier: Apache-2.0
  * Source: SW_Push_1P1T_NO_SAMZO_C4B1802110.py; nominal dimensions and display
  * approximations are documented in that original model source. */
