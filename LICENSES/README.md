@@ -57,6 +57,8 @@ The following footprints are identified KiCad derivatives under the same license
 | [CH347F footprint](../CHIPSAlliance_Package_DFN_QFN.pretty/WCH_CH347F_QFN-28-1EP_4x4mm_P0.4mm_EP2.7x2.7mm.kicad_mod) | KiCad WQFN-28 land pattern. Name, metadata, exposed-pad number and model reference changed. See [WCH CH347DS1](https://www.wch.cn/downloads/CH347DS1_PDF.html). |
 | [WSON-8 footprint](../CHIPSAlliance_Package_SON.pretty/WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm.kicad_mod) | KiCad kicad-footprints 10.0.5. Description, keywords and model path changed. Upstream URL is in the footprint. |
 | [SOIC-8 footprint](../CHIPSAlliance_Package_SO.pretty/SOIC-8_5.3x5.3mm_P1.27mm.kicad_mod) | KiCad kicad-footprints. Model path changed, as recorded in the footprint. |
+| [SKRTLBE010 footprint](../CHIPSAlliance_Button_Switch_SMD.pretty/SW_Push_1P1T-MP_NO_Horizontal_Alps_SKRTLBE010.kicad_mod) | [KiCad SKRTLAE010 footprint](https://gitlab.com/kicad/libraries/kicad-footprints/-/blob/10.0.5/Button_Switch_SMD.pretty/SW_Push_1P1T-MP_NO_Horizontal_Alps_SKRTLAE010.kicad_mod). Adapted for the version without guide bosses. Uses the manufacturer terminal numbering and copper exclusion. |
+
 
 ## Older KiCad models
 
