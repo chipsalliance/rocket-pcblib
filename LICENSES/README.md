@@ -24,6 +24,7 @@ Repository history records local changes, including names and coordinate transfo
 | [CHIPSAlliance_Connector.3dshapes/PinSocket_2x06_P2.54mm_Horizontal.step](../CHIPSAlliance_Connector.3dshapes/PinSocket_2x06_P2.54mm_Horizontal.step) |
 | [CHIPSAlliance_Connector.3dshapes/PinSocket_2x06_P2.54mm_Vertical.step](../CHIPSAlliance_Connector.3dshapes/PinSocket_2x06_P2.54mm_Vertical.step) |
 | [CHIPSAlliance_Connector.3dshapes/PinSocket_2x06_P2.54mm_Vertical_SMD.step](../CHIPSAlliance_Connector.3dshapes/PinSocket_2x06_P2.54mm_Vertical_SMD.step) |
+| [CHIPSAlliance_Connector_Coaxial.3dshapes/SMA_Amphenol_132134-11_Vertical.step](../CHIPSAlliance_Connector_Coaxial.3dshapes/SMA_Amphenol_132134-11_Vertical.step) |
 | [CHIPSAlliance_Diode_SMD.3dshapes/D_SOD-123.step](../CHIPSAlliance_Diode_SMD.3dshapes/D_SOD-123.step) |
 | [CHIPSAlliance_Diode_SMD.3dshapes/D_SOD-128.step](../CHIPSAlliance_Diode_SMD.3dshapes/D_SOD-128.step) |
 | [CHIPSAlliance_Diode_SMD.3dshapes/D_SOD-323.step](../CHIPSAlliance_Diode_SMD.3dshapes/D_SOD-323.step) |
@@ -58,6 +59,7 @@ The following footprints are identified KiCad derivatives under the same license
 | [WSON-8 footprint](../CHIPSAlliance_Package_SON.pretty/WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm.kicad_mod) | KiCad kicad-footprints 10.0.5. Description, keywords and model path changed. Upstream URL is in the footprint. |
 | [SOIC-8 footprint](../CHIPSAlliance_Package_SO.pretty/SOIC-8_5.3x5.3mm_P1.27mm.kicad_mod) | KiCad kicad-footprints. Model path changed, as recorded in the footprint. |
 | [SKRTLBE010 footprint](../CHIPSAlliance_Button_Switch_SMD.pretty/SW_Push_1P1T-MP_NO_Horizontal_Alps_SKRTLBE010.kicad_mod) | [KiCad SKRTLAE010 footprint](https://gitlab.com/kicad/libraries/kicad-footprints/-/blob/10.0.5/Button_Switch_SMD.pretty/SW_Push_1P1T-MP_NO_Horizontal_Alps_SKRTLAE010.kicad_mod). Adapted for the version without guide bosses. Uses the manufacturer terminal numbering and copper exclusion. |
+| [Amphenol 132134-11 footprint](../CHIPSAlliance_Connector_Coaxial.pretty/SMA_Amphenol_132134-11_Vertical.kicad_mod) | [KiCad 132134-11 footprint](https://gitlab.com/kicad/libraries/kicad-footprints/-/blob/master/Connector_Coaxial.pretty/SMA_Amphenol_132134-11_Vertical.kicad_mod). Enlarged the copper lands to 2.50 mm and updated the description, keywords and model path. |
 
 
 ## Older KiCad models
@@ -110,6 +112,8 @@ Generated from manufacturer dimensions and licensed under Apache-2.0.
 
 | File | Evidence |
 | --- | --- |
+| [E-Switch 200MSP1T1B2M2RE model](../CHIPSAlliance_Button_Switch_THT.3dshapes/SW_Toggle_SPDT_E-Switch_200MSP1T1B2M2RE.step) | [E-Switch drawing T211121 Rev B](https://configured-product-images.s3.amazonaws.com/2D/specs/200MSP1T1B2M2RE.pdf). The lever is shown at POS 1. |
+| [Samtec GMI-20-2-1.27-G-10 model](../CHIPSAlliance_Connector.3dshapes/Samtec_GMI-20-2-1.27-G-10.step) | [Samtec part drawing and mated view](https://www.samtec.com/products/gmi-20-2-1.27-g-10). Mounting reference model with simplified springs at the nominal 1.27 mm compressed height. |
 | [CHIPSAlliance_Button_Switch_SMD.3dshapes/SW_Push_1P1T_NO_SAMZO_C4B1802110.step](../CHIPSAlliance_Button_Switch_SMD.3dshapes/SW_Push_1P1T_NO_SAMZO_C4B1802110.step) | Apache-2.0 notice in the model header · [Generator](https://github.com/vowstar/rocket-pcblib-generators/blob/4bfd24b7176961a652fc065531e61c8c10dc5689/models/CHIPSAlliance_Button_Switch_SMD/SW_Push_1P1T_NO_SAMZO_C4B1802110/generate.py) |
 | [CHIPSAlliance_Connector.3dshapes/Hirose_FH12-32S-0.5SVA_2x16-4MP_P1.00mm_Vertical.step](../CHIPSAlliance_Connector.3dshapes/Hirose_FH12-32S-0.5SVA_2x16-4MP_P1.00mm_Vertical.step) | [FH12 source](../FH12_VERTICAL_SOURCE.md) · [Generator](https://github.com/vowstar/rocket-pcblib-generators/blob/4bfd24b7176961a652fc065531e61c8c10dc5689/models/CHIPSAlliance_Connector/Hirose_FH12-32S-0.5SVA_2x16-4MP_P1.00mm_Vertical/generate.py) |
 | [CHIPSAlliance_Connector.3dshapes/Hirose_FH34SRJ-24S-0.5SH_1x24-2MP_P0.50mm_Horizontal.step](../CHIPSAlliance_Connector.3dshapes/Hirose_FH34SRJ-24S-0.5SH_1x24-2MP_P0.50mm_Horizontal.step) | [FH34 source](../FH34_SOURCE.md) · [Generator](https://github.com/vowstar/rocket-pcblib-generators/blob/4bfd24b7176961a652fc065531e61c8c10dc5689/models/CHIPSAlliance_Connector/Hirose_FH34SRJ-24S-0.5SH_1x24-2MP_P0.50mm_Horizontal/generate.py) |
