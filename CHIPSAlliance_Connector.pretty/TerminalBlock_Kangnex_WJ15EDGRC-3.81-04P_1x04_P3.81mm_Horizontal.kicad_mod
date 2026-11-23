@@ -1,0 +1,160 @@
+(footprint "TerminalBlock_Kangnex_WJ15EDGRC-3.81-04P_1x04_P3.81mm_Horizontal"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Kangnex WJ15EDGRC-3.81-04P pluggable terminal block header, 4 poles, 3.81mm pitch, horizontal, 4x1.40mm drills, row 1.20mm from rear body edge, https://www.lcsc.com/datasheet/C7245.pdf")
+	(tags "Kangnex WJ15EDGRC 3.81 pluggable terminal header horizontal")
+	(property "Reference" "REF**"
+		(at 5.715 -14 0)
+		(layer "F.SilkS")
+		(uuid "b2982a6b-a7a1-4b88-a9f7-16de68e89c16")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TerminalBlock_Kangnex_WJ15EDGRC-3.81-04P_1x04_P3.81mm_Horizontal"
+		(at 5.715 14 0)
+		(layer "F.Fab")
+		(uuid "0c887e4e-8fd2-4e5b-b19e-90a687d409ae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 5.715 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "43ae777b-5338-4eab-badd-abe488f06655")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 5.715 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "baed1f5f-4630-42d7-a6ae-a47465c92a09")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_text user "${REFERENCE}"
+		(at 5.715 -3.4 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -2.345 -8)
+		(end 13.775 -8)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "25c94010-dddd-4393-879e-c325976fe242")
+	)
+	(fp_line
+		(start -2.345 -2.9)
+		(end -2.345 1.2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c89e88ff-184b-4657-be49-97b3a82eed05")
+	)
+	(fp_line
+		(start 13.775 -2.9)
+		(end 13.775 1.2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c03c1371-9deb-4337-83cd-d553bbe6ddc5")
+	)
+	(fp_rect
+		(start -2.85 -8.5)
+		(end 14.28 1.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "9f343065-bb0c-4402-b28d-452b89e1a87e")
+	)
+	(fp_rect
+		(start -2.345 -8)
+		(end 13.775 1.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "d54782da-f800-42de-a2c8-4cd7a0286d36")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 2.4 2.4)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ee55e63f-455e-4e78-b5f8-7d070de84a92")
+	)
+	(pad "2" thru_hole circle
+		(at 3.81 0)
+		(size 2.4 2.4)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "134d37af-9808-4d4b-abef-b1b00323ca04")
+	)
+	(pad "3" thru_hole circle
+		(at 7.62 0)
+		(size 2.4 2.4)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "42c9d9fa-d2f5-4d3b-89dc-9f3262129773")
+	)
+	(pad "4" thru_hole circle
+		(at 11.43 0)
+		(size 2.4 2.4)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8dcdf480-9e0f-4f19-9ef7-f68e635f00b9")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/library/CHIPSAlliance_Connector.3dshapes/TerminalBlock_Kangnex_WJ15EDGRC-3.81-04P_1x04_P3.81mm_Horizontal.step"
+		(offset
+			(xyz 5.715 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

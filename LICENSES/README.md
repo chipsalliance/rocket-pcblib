@@ -60,6 +60,8 @@ The following footprints are identified KiCad derivatives under the same license
 | [SOIC-8 footprint](../CHIPSAlliance_Package_SO.pretty/SOIC-8_5.3x5.3mm_P1.27mm.kicad_mod) | KiCad kicad-footprints. Model path changed, as recorded in the footprint. |
 | [SKRTLBE010 footprint](../CHIPSAlliance_Button_Switch_SMD.pretty/SW_Push_1P1T-MP_NO_Horizontal_Alps_SKRTLBE010.kicad_mod) | [KiCad SKRTLAE010 footprint](https://gitlab.com/kicad/libraries/kicad-footprints/-/blob/10.0.5/Button_Switch_SMD.pretty/SW_Push_1P1T-MP_NO_Horizontal_Alps_SKRTLAE010.kicad_mod). Adapted for the version without guide bosses. Uses the manufacturer terminal numbering and copper exclusion. |
 | [Amphenol 132134-11 footprint](../CHIPSAlliance_Connector_Coaxial.pretty/SMA_Amphenol_132134-11_Vertical.kicad_mod) | [KiCad 132134-11 footprint](https://gitlab.com/kicad/libraries/kicad-footprints/-/blob/master/Connector_Coaxial.pretty/SMA_Amphenol_132134-11_Vertical.kicad_mod). Enlarged the copper lands to 2.50 mm and updated the description, keywords and model path. |
+| [RMQ0024A footprint](../CHIPSAlliance_Package_DFN_QFN.pretty/Texas_RMQ0024A_WQFN-24-1EP_3x3mm_P0.4mm_EP1.9x1.9mm.kicad_mod) | KiCad kicad-footprints 10.0.8. Model path changed. Upstream URL is in the footprint. |
+| [HR911105A footprint](../CHIPSAlliance_Connector.pretty/RJ45_Hanrun_HR911105A_Horizontal.kicad_mod) | KiCad kicad-footprints 10.0.8. Model path changed. Upstream URL is in the footprint. |
 
 
 ## Older KiCad models
