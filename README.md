@@ -9,7 +9,7 @@ Repository models use `${KIPRJMOD}/library/...`.
 Official models use `${KICAD10_3DMODEL_DIR}` and require the KiCad 10 3D libraries.
 
 [Editable model generators](https://github.com/vowstar/rocket-pcblib-generators) are maintained separately.
-Individual source records link to fixed generator revisions.
+The [source index](LICENSES/README.md#project-generated-models) links to fixed generator revisions.
 
 Contributions follow the applicable [KiCad Library Conventions](https://klc.kicad.org/).
 Use the pull request checklist and retain source and license information.

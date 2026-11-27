@@ -4,5 +4,6 @@
 - [ ] Library references, `${REFERENCE}` and model paths resolve without local absolute paths.
 - [ ] Changed 3D models are checked for dimensions, alignment, scale and valid solids.
 - [ ] Sources, authorship, redistribution rights and required license texts are recorded.
+- [ ] Footprint descriptions include the datasheet URL where applicable. Editable model sources live in rocket-pcblib-generators, with a pinned link in the source index under LICENSES.
 - [ ] Native previews and affected board checks are provided, including remaining violations.
 - [ ] Temporary files are excluded. Commits are signed and signed off.
